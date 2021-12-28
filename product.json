@@ -2,6 +2,7 @@
   {
     "id": 1,
     "sectionName": "features",
+    "subHeading": "this is the subheading",
     "elements": [
       {
         "key": "",
@@ -30,6 +31,7 @@
   },
   {
     "sectionName": "testimonials",
+    "subHeading": "this is the subheading",
     "elements": [
       {
         "title": "Testimonial 1",
@@ -43,6 +45,7 @@
   },
   {
     "sectionName": "pricing",
+    "subHeading": "this is the subheading",
     "elements": [
       {
         "key": "",

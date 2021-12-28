@@ -1,6 +1,7 @@
 [
   {
     "sectionName": "overview",
+    "subHeading": "this is the subheading",
     "elements": [
       {
         "key": "business-name",
@@ -58,6 +59,7 @@
   },
   {
     "sectionName": "swot",
+    "subHeading": "this is the subheading",
     "elements": [
       {
         "key": "",
