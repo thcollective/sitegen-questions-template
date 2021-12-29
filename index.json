@@ -1,0 +1,199 @@
+[
+  {
+    "header": "Business",
+    "contents": [
+      {
+        "sectionName": "overview",
+        "subHeading": "this is the subheading",
+        "elements": [
+          {
+            "key": "business-name",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Business Name",
+            "width": "FULL",
+            "info": [
+              {
+                "topic": "this is a big title",
+                "content": "this is the main body content related to the topic"
+              },
+              {
+                "topic": "this is a big title",
+                "content": "this is the main body content related to the topic"
+              },
+              {
+                "topic": "this is a big title",
+                "content": "this is the main body content related to the topic"
+              }
+            ]
+          },
+          {
+            "key": "business-tagline",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Business Tagline",
+            "width": "FULL"
+          },
+          {
+            "key": "business-subheading",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Business Subheading",
+            "width": "FULL"
+          }
+        ],
+        "info": [
+          {
+            "topic": "this is a big title",
+            "content": "this is the main body content related to the topic"
+          },
+          {
+            "topic": "this is a big title",
+            "content": "this is the main body content related to the topic"
+          },
+          {
+            "topic": "this is a big title",
+            "content": "this is the main body content related to the topic"
+          }
+        ]
+      },
+      {
+        "sectionName": "swot",
+        "subHeading": "this is the subheading",
+        "elements": [
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Strengths",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Weaknesses",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Opportunities",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Threats",
+            "width": "FULL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Product",
+    "contents": [
+      {
+        "id": 1,
+        "sectionName": "features",
+        "subHeading": "this is the subheading",
+        "elements": [
+          {
+            "key": "",
+            "title": "Feature 1",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Product Headline",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Product Subheadline",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "Upload an image",
+            "type": "IMAGE_UPLOAD",
+            "placeholder": "PNG, JPG, GIF up to 10MB Recommended size: 142x32 px",
+            "width": "FULL"
+          }
+        ]
+      },
+      {
+        "sectionName": "testimonials",
+        "subHeading": "this is the subheading",
+        "elements": [
+          {
+            "title": "Testimonial 1",
+            "subTitle": "",
+            "type": "IMAGE_UPLOAD_TEXTAREA",
+            "placeholder1": "Name",
+            "placeholder2": "Position",
+            "placeholder3": "Testimonial"
+          }
+        ]
+      },
+      {
+        "sectionName": "pricing",
+        "subHeading": "this is the subheading",
+        "elements": [
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Pricing Headline",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Pricing Subheadline",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Price",
+            "width": "HALF"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "SELECT",
+            "choices": [
+              {
+                "key": "",
+                "name": "Month"
+              },
+              {
+                "key": "",
+                "name": "Year"
+              }
+            ],
+            "width": "HALF"
+          }
+        ]
+      }
+    ]
+  }
+]
