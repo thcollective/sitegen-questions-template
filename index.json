@@ -153,8 +153,8 @@
             "key": "",
             "title": "",
             "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Strengths",
+            "type": "IMAGE_UPLOAD_TEXTAREA",
+            "placeholder": "",
             "width": "FULL"
           }
         ]
@@ -167,7 +167,7 @@
             "key": "",
             "title": "",
             "subTitle": "",
-            "type": "email",
+            "type": "EMAIL",
             "placeholder": "E-mail",
             "width": "FULL"
           },
@@ -175,7 +175,7 @@
             "key": "",
             "title": "",
             "subTitle": "",
-            "type": "text",
+            "type": "TEXTINPUT",
             "placeholder": "LinkedIn",
             "width": "FULL"
           },
@@ -183,7 +183,7 @@
             "key": "",
             "title": "",
             "subTitle": "",
-            "type": "text",
+            "type": "TEXTINPUT",
             "placeholder": "Facebook",
             "width": "FULL"
           },
@@ -191,8 +191,22 @@
             "key": "",
             "title": "",
             "subTitle": "",
-            "type": "text",
+            "type": "TEXTINPUT",
             "placeholder": "Phone Number",
+            "width": "FULL"
+          }
+        ]
+      },
+      {
+        "sectionName": "branding",
+        "subHeading": "Memorable identifier for your business",
+        "elements": [
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "BRANDING",
+            "placeholder": "",
             "width": "FULL"
           }
         ]
