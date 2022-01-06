@@ -115,7 +115,7 @@
         "subHeading": "Define your business strategy techniques",
         "elements": [
           {
-            "key": "",
+            "key": "strengths",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -123,7 +123,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "weaknesses",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -131,7 +131,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "opportunities",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -139,7 +139,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "threats",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
