@@ -5,10 +5,11 @@
     "contents": [
       {
         "sectionName": "overview",
+        "key": "overview",
         "subHeading": "this is the subheading",
         "elements": [
           {
-            "key": "business-name",
+            "key": "businessName",
             "title": "",
             "subTitle": "",
             "type": "TEXTINPUT",
@@ -30,7 +31,7 @@
             ]
           },
           {
-            "key": "business-tagline",
+            "key": "businessTagline",
             "title": "",
             "subTitle": "",
             "type": "TEXTINPUT",
@@ -38,7 +39,7 @@
             "width": "FULL"
           },
           {
-            "key": "business-subheading",
+            "key": "businessSubheading",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -63,10 +64,11 @@
       },
       {
         "sectionName": "business pitch",
+        "key": "business",
         "subHeading": "Introduce your amazing techniques",
         "elements": [
           {
-            "key": "",
+            "key": "problem",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -74,7 +76,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "solution",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -82,7 +84,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "targetMarket",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -90,7 +92,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "missionStatement",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -98,7 +100,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "visionStatement",
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
@@ -109,6 +111,7 @@
       },
       {
         "sectionName": "swot",
+        "key": "swot",
         "subHeading": "Define your business strategy techniques",
         "elements": [
           {
@@ -147,10 +150,11 @@
       },
       {
         "sectionName": "team",
+        "key": "team",
         "subHeading": "Introduce your amazing teammates",
         "elements": [
           {
-            "key": "",
+            "key": "teamMembers",
             "title": "",
             "subTitle": "",
             "type": "SELECT",
@@ -171,7 +175,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "teamMembers",
             "title": "",
             "subTitle": "",
             "type": "IMAGE_UPLOAD_TEXTAREA",
@@ -184,10 +188,11 @@
       },
       {
         "sectionName": "contact information",
+        "key": "contact",
         "subHeading": "A way for customers to get in touch with you",
         "elements": [
           {
-            "key": "",
+            "key": "email",
             "title": "",
             "subTitle": "",
             "type": "EMAIL",
@@ -195,7 +200,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "linkedin",
             "title": "",
             "subTitle": "",
             "type": "TEXTINPUT",
@@ -203,7 +208,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "facebook",
             "title": "",
             "subTitle": "",
             "type": "TEXTINPUT",
@@ -211,7 +216,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "phoneNumber",
             "title": "",
             "subTitle": "",
             "type": "TEXTINPUT",
@@ -222,10 +227,11 @@
       },
       {
         "sectionName": "branding",
+        "key": "branding",
         "subHeading": "Memorable identifier for your business",
         "elements": [
           {
-            "key": "",
+            "key": "brandingImage",
             "title": "",
             "subTitle": "",
             "type": "IMAGE_UPLOAD",
@@ -233,7 +239,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "themeColor",
             "title": "",
             "subTitle": "",
             "type": "BRANDING",
@@ -241,7 +247,7 @@
             "width": "FULL"
           },
           {
-            "key": "",
+            "key": "fontStyle",
             "title": "",
             "subTitle": "",
             "type": "SELECT",
