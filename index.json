@@ -62,8 +62,54 @@
         ]
       },
       {
+        "sectionName": "business pitch",
+        "subHeading": "Introduce your amazing techniques",
+        "elements": [
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Problems",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Solution",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Target Market",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Mission Statement",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Vision Statement",
+            "width": "FULL"
+          }
+        ]
+      },
+      {
         "sectionName": "swot",
-        "subHeading": "this is the subheading",
+        "subHeading": "Define your business strategy techniques",
         "elements": [
           {
             "key": "",
