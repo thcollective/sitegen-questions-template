@@ -154,7 +154,20 @@
             "title": "",
             "subTitle": "",
             "type": "SELECT",
-            "choices": [1,2,3],
+            "choices": [
+              {
+                "name": "1",
+                "value": 1
+              },
+              {
+                "name": "2",
+                "value": 2
+              },
+              {
+                "name": "3",
+                "value": 3
+              }
+            ],
             "width": "FULL"
           },
           {
@@ -232,7 +245,20 @@
             "title": "",
             "subTitle": "",
             "type": "SELECT",
-            "choices": ["font style A","font style B","font style C"],
+            "choices": [
+              {
+                "name": "font style A",
+                "value": "font style A"
+              },
+              {
+                "name": "font style B",
+                "value": "font style B"
+              },
+              {
+                "name": "font style C",
+                "value": "font style C"
+              }
+            ],
             "width": "FULL"
           }
         ]
