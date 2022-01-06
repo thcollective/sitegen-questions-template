@@ -144,6 +144,58 @@
             "width": "FULL"
           }
         ]
+      },
+      {
+        "sectionName": "team",
+        "subHeading": "Introduce your amazing teammates",
+        "elements": [
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Strengths",
+            "width": "FULL"
+          }
+        ]
+      },
+      {
+        "sectionName": "contact information",
+        "subHeading": "A way for customers to get in touch with you",
+        "elements": [
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "email",
+            "placeholder": "E-mail",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "text",
+            "placeholder": "LinkedIn",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "text",
+            "placeholder": "Facebook",
+            "width": "FULL"
+          },
+          {
+            "key": "",
+            "title": "",
+            "subTitle": "",
+            "type": "text",
+            "placeholder": "Phone Number",
+            "width": "FULL"
+          }
+        ]
       }
     ]
   },
