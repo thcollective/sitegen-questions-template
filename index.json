@@ -480,8 +480,8 @@
             "key": "headline",
             "title": "",
             "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Product Headline",
+            "type": "TEXTAREA",
+            "placeholder": "Headline",
             "width": "FULL"
           },
           {
@@ -489,7 +489,7 @@
             "title": "",
             "subTitle": "",
             "type": "TEXTAREA",
-            "placeholder": "Product Subheadline",
+            "placeholder": "Subheadline",
             "width": "FULL"
           }
         ]
