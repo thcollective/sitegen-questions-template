@@ -460,7 +460,13 @@
           }
         ],
         "width": "FULL"
-      },
+      }
+    ]
+  },
+  {
+    "sectionName": "Address",
+    "subHeading": "List down your headquaters and branches",
+    "elements": [
       {
         "key": "addresses",
         "title": "Addresses",
