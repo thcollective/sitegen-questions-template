@@ -652,32 +652,6 @@
         "width": "FULL"
       },
       {
-        "key": "testimonials",
-        "title": "Testimonials",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      },
-      {
         "key": "group",
         "title": "Features",
         "subTitle": "",
