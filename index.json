@@ -69,7 +69,7 @@
     "elements": [
       {
         "key": "businessImg",
-        "title": "",
+        "title": "Business Image",
         "subTitle": "",
         "type": "IMAGE_UPLOAD",
         "placeholder": "",
@@ -93,7 +93,7 @@
       },
       {
         "key": "businessLogo",
-        "title": "",
+        "title": "Business Logo",
         "subTitle": "",
         "type": "IMAGE_UPLOAD",
         "placeholder": "",
@@ -226,7 +226,7 @@
     "subHeading": "",
     "elements": [
       {
-        "key": "",
+        "key": "dropdownOptions",
         "title": "",
         "subTitle": "",
         "type": "SELECT",
