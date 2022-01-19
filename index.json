@@ -784,7 +784,6 @@
         "title": "",
         "subTitle": "",
         "type": "SELECT",
-        "defaultValue": "Font style",
         "choices": [
           {
             "name": "block",
