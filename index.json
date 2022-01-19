@@ -765,6 +765,61 @@
         "width": "FULL"
       }
     ]
+  },
+  {
+    "sectionName": "branding",
+    "key": "generalTheme",
+    "subHeading": "Memorable identifier for your business",
+    "elements": [
+      {
+        "key": "themeColor",
+        "title": "",
+        "subTitle": "",
+        "type": "BRANDING",
+        "placeholder": "",
+        "width": "FULL"
+      },
+      {
+        "key": "pageStyle",
+        "title": "",
+        "subTitle": "",
+        "type": "SELECT",
+        "defaultValue": "Font style",
+        "choices": [
+          {
+            "name": "block",
+            "value": "block"
+          },
+          {
+            "name": "carousel",
+            "value": "carousel"
+          }
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "fontFamily",
+        "title": "",
+        "subTitle": "",
+        "type": "SELECT",
+        "defaultValue": "Font style",
+        "choices": [
+          {
+            "name": "font style A",
+            "value": "font style A"
+          },
+          {
+            "name": "font style B",
+            "value": "font style B"
+          },
+          {
+            "name": "font style C",
+            "value": "font style C"
+          }
+        ],
+        "width": "FULL"
+      }
+    ]
   }
 
 ]
