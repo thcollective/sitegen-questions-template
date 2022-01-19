@@ -2,62 +2,37 @@
   {
     "sectionName": "header section",
     "subHeading": "Define your business product. Attract your user!",
-    "elements": [
-      {
-        "key": "tagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
-        "width": "FULL"
-      },
+    "contents": [
       {
         "key": "header",
-        "title": "",
+        "title": "Header Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Header",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
         "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "img",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
         "width": "FULL"
       },
       {
         "key": "supportLinks",
         "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -66,78 +41,37 @@
   {
     "sectionName": "hero section",
     "subHeading": "Define your business product. Attract your user!",
-    "elements": [
+    "contents": [
       {
-        "key": "businessImg",
+        "key": "hero",
+        "title": "Hero Section",
+        "subTitle": "",
+        "type": "TITLE",
+        "width": "FULL"
+      },
+      {
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "businessTagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
         "width": "FULL"
       },
       {
-        "key": "businessDescription",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "businessLogo",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "",
-        "title": "Logo Cloud",
-        "subTitle": "",
-        "type": "",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "trustedByNumber",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Trusted By Number",
-        "width": "FULL"
-      },
-      {
-        "key": "companyImage",
+        "key": "supportLinks",
         "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -146,54 +80,37 @@
   {
     "sectionName": "logo section",
     "subHeading": "show partnership, sponsors and clients",
-    "elements": [
+    "contents": [
       {
-        "key": "header",
-        "title": "",
+        "key": "logo",
+        "title": "Logo Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "primaryButton",
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Primary Call-to-action Button",
-        "width": "HALF"
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
       },
       {
-        "key": "secondaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Secondary Call-to-action Button",
-        "width": "HALF"
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
       },
       {
-        "key": "companies",
-        "title": "Companies",
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -202,21 +119,38 @@
   {
     "sectionName": "newsletter",
     "subHeading": "",
-    "elements": [
+    "contents": [
       {
         "key": "header",
-        "title": "",
+        "title": "Newsletter",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "subheader",
+        "key": "description",
         "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "subheader",
+        "type": "LIST",
+        "choices": [
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
+        ],
         "width": "FULL"
       }
     ]
@@ -224,47 +158,37 @@
   {
     "sectionName": "pricing",
     "subHeading": "",
-    "elements": [
+    "contents": [
       {
-        "key": "",
-        "title": "",
+        "key": "pricing",
+        "title": "Pricing Section",
         "subTitle": "",
-        "type": "SELECT",
-        "choices": [
-          {
-            "key": "",
-            "name": "Month"
-          },
-          {
-            "key": "",
-            "name": "Year"
-          }
-        ],
-        "width": "HALF"
+        "type": "TITLE",
+        "width": "FULL"
       },
       {
-        "key": "group",
-        "title": "Pricing Packages",
+        "key": "description",
+        "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -273,30 +197,37 @@
   {
     "sectionName": "team",
     "subHeading": "Core team members",
-    "elements": [
+    "contents": [
       {
-        "key": "teamMembers",
-        "title": "",
+        "key": "team",
+        "title": "Team Section",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "TITLE",
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
+        "subTitle": "",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -305,30 +236,37 @@
   {
     "sectionName": "testimonial",
     "subHeading": "Show client feedbacks",
-    "elements": [
+    "contents": [
       {
-        "key": "group",
-        "title": "",
+        "key": "testimonial",
+        "title": "Testimonial Section",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "TITLE",
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
+        "subTitle": "",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -337,54 +275,37 @@
   {
     "sectionName": "stats",
     "subHeading": "",
-    "elements": [
-      {
-        "key": "tagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "subheader",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "subheader",
-        "width": "FULL"
-      },
-      {
-        "key": "img",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
-        "width": "FULL"
-      },
+    "contents": [
       {
         "key": "stats",
-        "title": "Stats",
+        "title": "Stats Section",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "TITLE",
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
+        "subTitle": "",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -393,71 +314,37 @@
   {
     "sectionName": "contact section",
     "subHeading": "Define your business & marketing message",
-    "elements": [
+    "contents": [
       {
-        "key": "sectionTitle",
-        "title": "",
+        "key": "contactSection ",
+        "title": "Contact Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Title",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "sectionDescription",
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
         "key": "sectionImage",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
         "width": "FULL"
       },
       {
-        "key": "showContactUsForm",
-        "title": "Show Contact Us Form?",
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "True",
-            "value": true
-          },
-          {
-            "name": "False",
-            "value": false
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "contactInformation",
-        "title": "Contact Information",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -466,30 +353,37 @@
   {
     "sectionName": "Address",
     "subHeading": "List down your headquaters and branches",
-    "elements": [
+    "contents": [
       {
-        "key": "addresses",
-        "title": "Addresses",
+        "key": "address",
+        "title": "Address",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "TITLE",
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
+        "subTitle": "",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -498,46 +392,37 @@
   {
     "sectionName": "blog section",
     "subHeading": "Talk about your success stories",
-    "elements": [
+    "contents": [
       {
-        "key": "header",
-        "title": "",
+        "key": "blog",
+        "title": "Blog Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
         "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "posts",
-        "title": "Blog Post",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -546,53 +431,38 @@
   {
     "sectionName": "cta section",
     "subHeading": "prompt the user to the next step",
-    "elements": [
+    "contents": [
       {
-        "key": "CTACompanyName",
-        "title": "",
+        "key": "cta",
+        "title": "CTA Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Company Name",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "CTAHeadline",
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Headline",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "CTASubheadline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Subheadline",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
         "width": "FULL"
       },
       {
-        "key": "CTACallToActionButton",
-        "title": "",
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Primary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "CTACallToSecondaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Secondary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "CTAImage",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
+        "type": "LIST",
+        "choices": [
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
+        ],
         "width": "FULL"
       }
     ]
@@ -600,46 +470,37 @@
   {
     "sectionName": "faq section",
     "subHeading": "frequetly asked questions to display",
-    "elements": [
+    "contents": [
       {
-        "key": "FAQHeader",
-        "title": "",
+        "key": "faq",
+        "title": "FAQ Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "FAQSubheader",
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Subheader",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "faqs",
-        "title": "Frequently Asked Questions",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -648,38 +509,37 @@
   {
     "sectionName": "feature section",
     "subHeading": "Show your product features",
-    "elements": [
+    "contents": [
       {
-        "key": "businessName",
-        "title": "",
+        "key": "feature",
+        "title": "Feature Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Name",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "group",
-        "title": "Features",
+        "key": "description",
+        "title": "",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
+        "type": "LIST",
         "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -688,79 +548,37 @@
   {
     "sectionName": "footer section",
     "subHeading": "Define your quick links",
-    "elements": [
+    "contents": [
       {
-        "key": "tagline",
-        "title": "",
+        "key": "footer",
+        "title": "Footer Section",
         "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "businessName",
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Name",
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "businessLogo",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
         "width": "FULL"
       },
       {
-        "key": "addNewsletter",
-        "title": "Add News Letter?",
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "True",
-            "value": true
-          },
-          {
-            "name": "False",
-            "value": false
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "navigation",
-        "title": "Navigation links",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          },
-          {
-            "name": "5",
-            "value": 5
-          },
-          {
-            "name": "6",
-            "value": 6
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
@@ -770,52 +588,37 @@
     "sectionName": "branding",
     "key": "generalTheme",
     "subHeading": "Memorable identifier for your business",
-    "elements": [
+    "contents": [
       {
-        "key": "themeColor",
-        "title": "",
+        "key": "branding",
+        "title": "Branding Section",
         "subTitle": "",
-        "type": "BRANDING",
-        "placeholder": "",
+        "type": "TITLE",
         "width": "FULL"
       },
       {
-        "key": "pageStyle",
+        "key": "description",
         "title": "",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": "Font style",
-        "choices": [
-          {
-            "name": "block",
-            "value": "block"
-          },
-          {
-            "name": "carousel",
-            "value": "carousel"
-          }
-        ],
+        "subTitle": "this is the description talking about guide to fill up the section.",
+        "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "fontFamily",
-        "title": "",
+        "key": "sectionImage",
+        "type": "IMAGE",
+        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": "Font style",
+        "type": "LIST",
         "choices": [
-          {
-            "name": "font style A",
-            "value": "font style A"
-          },
-          {
-            "name": "font style B",
-            "value": "font style B"
-          },
-          {
-            "name": "font style C",
-            "value": "font style C"
-          }
+          "This is the first point",
+          "This is the first point",
+          "This is the first point",
+          "This is the first point"
         ],
         "width": "FULL"
       }
