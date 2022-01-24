@@ -1,824 +1,456 @@
-[
-  {
-    "sectionName": "header section",
-    "subHeading": "Define your business product. Attract your user!",
-    "elements": [
-      {
-        "key": "tagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "header",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Header",
-        "width": "FULL"
-      },
-      {
-        "key": "description",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "img",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "hero section",
-    "subHeading": "Define your business product. Attract your user!",
-    "elements": [
-      {
-        "key": "businessImg",
-        "title": "Business Image",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "businessTagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "businessDescription",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "businessLogo",
-        "title": "Business Logo",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "",
-        "title": "Logo Cloud",
-        "subTitle": "",
-        "type": "",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "trustedByNumber",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Trusted By Number",
-        "width": "FULL"
-      },
-      {
-        "key": "companyImage",
-        "title": "Support Links",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "logo section",
-    "subHeading": "show partnership, sponsors and clients",
-    "elements": [
-      {
-        "key": "header",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
-        "width": "FULL"
-      },
-      {
-        "key": "primaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Primary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "secondaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Secondary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "companies",
-        "title": "Companies",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "newsletter",
-    "subHeading": "",
-    "elements": [
-      {
-        "key": "header",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
-        "width": "FULL"
-      },
-      {
-        "key": "subheader",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "subheader",
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "pricing",
-    "subHeading": "",
-    "elements": [
-      {
-        "key": "dropdownOptions",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECT",
-        "choices": [
-          {
-            "key": "",
-            "name": "Month"
-          },
-          {
-            "key": "",
-            "name": "Year"
-          }
-        ],
-        "width": "HALF"
-      },
-      {
-        "key": "group",
-        "title": "Pricing Packages",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "team",
-    "subHeading": "Core team members",
-    "elements": [
-      {
-        "key": "teamMembers",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "testimonial",
-    "subHeading": "Show client feedbacks",
-    "elements": [
-      {
-        "key": "group",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "stats",
-    "subHeading": "",
-    "elements": [
-      {
-        "key": "tagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "subheader",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "subheader",
-        "width": "FULL"
-      },
-      {
-        "key": "img",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
-        "width": "FULL"
-      },
-      {
-        "key": "stats",
-        "title": "Stats",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "contact section",
-    "subHeading": "Define your business & marketing message",
-    "elements": [
-      {
-        "key": "sectionTitle",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Title",
-        "width": "FULL"
-      },
-      {
-        "key": "sectionDescription",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "sectionImage",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
-        "width": "FULL"
-      },
-      {
-        "key": "showContactUsForm",
-        "title": "Show Contact Us Form?",
-        "subTitle": "",
-        "type": "SELECT",
-        "choices": [
-          {
-            "name": "True",
-            "value": true
-          },
-          {
-            "name": "False",
-            "value": false
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "contactInformation",
-        "title": "Contact Information",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "Address",
-    "subHeading": "List down your headquaters and branches",
-    "elements": [
-      {
-        "key": "addresses",
-        "title": "Addresses",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "blog section",
-    "subHeading": "Talk about your success stories",
-    "elements": [
-      {
-        "key": "header",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
-        "width": "FULL"
-      },
-      {
-        "key": "description",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "posts",
-        "title": "Blog Post",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "cta section",
-    "subHeading": "prompt the user to the next step",
-    "elements": [
-      {
-        "key": "CTACompanyName",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Company Name",
-        "width": "FULL"
-      },
-      {
-        "key": "CTAHeadline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Headline",
-        "width": "FULL"
-      },
-      {
-        "key": "CTASubheadline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Subheadline",
-        "width": "FULL"
-      },
-      {
-        "key": "CTACallToActionButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Primary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "CTACallToSecondaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Secondary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "CTAImage",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "faq section",
-    "subHeading": "frequetly asked questions to display",
-    "elements": [
-      {
-        "key": "FAQHeader",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
-        "width": "FULL"
-      },
-      {
-        "key": "FAQSubheader",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Subheader",
-        "width": "FULL"
-      },
-      {
-        "key": "faqs",
-        "title": "Frequently Asked Questions",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "feature section",
-    "subHeading": "Show your product features",
-    "elements": [
-      {
-        "key": "businessName",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Name",
-        "width": "FULL"
-      },
-      {
-        "key": "group",
-        "title": "Features",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "footer section",
-    "subHeading": "Define your quick links",
-    "elements": [
-      {
-        "key": "tagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "businessName",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Name",
-        "width": "FULL"
-      },
-      {
-        "key": "businessLogo",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "addNewsletter",
-        "title": "Add News Letter?",
-        "subTitle": "",
-        "type": "SELECT",
-        "choices": [
-          {
-            "name": "True",
-            "value": true
-          },
-          {
-            "name": "False",
-            "value": false
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "navigation",
-        "title": "Navigation links",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          },
-          {
-            "name": "5",
-            "value": 5
-          },
-          {
-            "name": "6",
-            "value": 6
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "branding",
-    "key": "generalTheme",
-    "subHeading": "Memorable identifier for your business",
-    "elements": [
-      {
-        "key": "themeColor",
-        "title": "",
-        "subTitle": "",
-        "type": "BRANDING",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "pageStyle",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECT",
-        "choices": [
-          {
-            "name": "block",
-            "value": "block"
-          },
-          {
-            "name": "carousel",
-            "value": "carousel"
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "fontFamily",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECT",
-        "defaultValue": "Font style",
-        "choices": [
-          {
-            "name": "font style A",
-            "value": "font style A"
-          },
-          {
-            "name": "font style B",
-            "value": "font style B"
-          },
-          {
-            "name": "font style C",
-            "value": "font style C"
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  }
-
-]
+{
+	"data": {
+		"metadata": {
+			"clientId": "19debfe4-b309-4f4d-a951-fdd2d8af0386",
+			"domain": "secretanimals032.hackercollective.work",
+			"websiteId": "secretanimals032",
+			"deployed": true
+		},
+		"payload": {
+			"generalTheme": {
+				"themeColor": "yellow",
+				"pageStyle": "block",
+				"fontFamily": "font-montserrat"
+			},
+			"contactSection": {
+				"sectionDescription": "This is contact section description",
+				"sectionTitle": "This is the section title",
+				"sectionImage": "this is the section image",
+				"showContactUsForm": true,
+				"contactInformation": [
+					{
+						"contactDescription": "This is the contact description",
+						"name": "Contact name 1",
+						"phoneNumber": "01096969792",
+						"email": "blaisetiong1030@gmail.com"
+					},
+					{
+						"contactDescription": "This is the contact description",
+						"name": "Contact name 2",
+						"phoneNumber": "01096969792",
+						"email": "blaisetiong1030@gmail.com"
+					},
+					{
+						"contactDescription": "This is the contact description",
+						"name": "Contact name 3",
+						"phoneNumber": "01096969792",
+						"email": "blaisetiong1030@gmail.com"
+					},
+					{
+						"contactDescription": "This is the contact description",
+						"name": "Contact name 3",
+						"phoneNumber": "01096969792",
+						"email": "blaisetiong1030@gmail.com"
+					}
+				],
+				"addresses": [
+					{
+						"name": "Los Angeles",
+						"address": "4556 Brendan Ferry Los Angeles, CA 90210"
+					},
+					{
+						"name": "New York",
+						"address": "886 Walter Streets New York, NY 12345"
+					},
+					{
+						"name": "Toronto",
+						"address": "7363 Cynthia Pass Toronto, ON N3Y 4H8"
+					},
+					{
+						"name": "London",
+						"address": "114 Cobble Lane London N1 2EF"
+					}
+				]
+			},
+			"blogSection": {
+				"header": "This is the header",
+				"description": "this is the header description",
+				"posts": [
+					{
+						"title": "This is the title",
+						"href": "This is the href",
+						"date": "This is the date",
+						"datetime": "This si the datetime",
+						"description": "This si the description",
+						"readingTime": "10min",
+						"category": {
+							"href": "www.google.com",
+							"name": "Category",
+							"color": "blue"
+						},
+						"author": {
+							"name": "This is the author name",
+							"href": "This is the href",
+							"imageUrl": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+						}
+					},
+					{
+						"title": "This is the title",
+						"href": "This is the href",
+						"date": "This is the date",
+						"datetime": "This si the datetime",
+						"description": "This si the description",
+						"readingTime": "10min",
+						"category": {
+							"href": "www.google.com",
+							"name": "Category",
+							"color": "blue"
+						},
+						"author": {
+							"name": "This is the author name",
+							"href": "This is the href",
+							"imageUrl": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+						},
+						"imageUrl": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+					}
+				]
+			},
+			"CTASection": {
+				"CTACompanyName": "Hacker Collective",
+				"CTAHeadline": "This is the CTA headline",
+				"CTASubheadline": "This is the subheadline",
+				"CTACallToActionButton": "Buy now",
+				"CTACallToSecondaryButton": "Buy now",
+				"CTAImage": "https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg"
+			},
+			"FAQSection": {
+				"FAQSubheader": "We got you covered",
+				"FAQHeader": "FAQ Section",
+				"faqs": [
+					{
+						"index": 0,
+						"question": "This is the question 1",
+						"answer": "This is the answer"
+					},
+					{
+						"index": 1,
+						"question": "This is the question 1",
+						"answer": "This is the answer"
+					},
+					{
+						"index": 2,
+						"question": "This is the question 1",
+						"answer": "This is the answer"
+					},
+					{
+						"index": 3,
+						"question": "This is the question 1",
+						"answer": "This is the answer"
+					}
+				]
+			},
+			"featureSection": {
+				"businessName": "The shoe company",
+				"testinomials": [
+					{
+						"name": "name",
+						"position": "position",
+						"testimonials": "this testinomial is good",
+						"img": "this is the image"
+					}
+				],
+				"group": [
+					{
+						"id": 0,
+						"image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"headline": "We co-found tech startups with you as your trusted CTO. 10x cheaper than market rate!",
+						"subheadline": "Imagine having a solid team with you who’s able to build anything you want, cheap and fast. Bring your startup ideas to life, gain traction and get investors begging to have a share in your Minimum Viable Product (MVP).\n\n"
+					},
+					{
+						"id": 1,
+						"image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"headline": "The fastest way to a career in tech. Job or money back!",
+						"subheadline": "Get behind the scenes of the thought process & strategies, so that you can do it yourself regardless of your educational background. Even if you don’t have a university degree. The more you should check us out.\n\n"
+					},
+					{
+						"id": 2,
+						"image": "",
+						"headline": "Stories of Hackers Series",
+						"subheadline": "Get behind the scenes of the journey behind their successes so that you can do it yourself regardless of your backgrounds and goals. Absorb the hacker mindset and start being one!"
+					},
+					{
+						"id": 3,
+						"image": "",
+						"headline": "Stories of Hackers Series",
+						"subheadline": "Get behind the scenes of the journey behind their successes so that you can do it yourself regardless of your backgrounds and goals. Absorb the hacker mindset and start being one!"
+					},
+					{
+						"id": 4,
+						"image": "",
+						"headline": "Stories of Hackers Series",
+						"subheadline": "Get behind the scenes of the journey behind their successes so that you can do it yourself regardless of your backgrounds and goals. Absorb the hacker mindset and start being one!"
+					},
+					{
+						"id": 6,
+						"image": "",
+						"headline": "Stories of Hackers Series",
+						"subheadline": "Get behind the scenes of the journey behind their successes so that you can do it yourself regardless of your backgrounds and goals. Absorb the hacker mindset and start being one!"
+					}
+				]
+			},
+			"footerSection": {
+				"tagline": "This is the business tagline",
+				"businessLogo": "THis is the logo string",
+				"businessName": "The hacker collective",
+				"addNewsletter": true,
+				"navigation": [
+					{
+						"header": "Link header1",
+						"data": [
+							{
+								"name": "link1",
+								"href": "Some href"
+							},
+							{
+								"name": "link2",
+								"href": "Some href"
+							},
+							{
+								"name": "link3",
+								"href": "Some href"
+							},
+							{
+								"name": "link4",
+								"href": "Some href"
+							}
+						]
+					}
+				]
+			},
+			"headerSection": {
+				"tagline": "this is the tagline",
+				"header": "this is the header",
+				"description": "this is the description",
+				"img": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+				"dropdown": {
+					"dropdownHeader": "this is the dropdown header",
+					"dropdownSelection": [
+						{
+							"label": "label1",
+							"selected": false
+						},
+						{
+							"label": "asdasd",
+							"selected": true
+						}
+					]
+				},
+				"supportLinks": [
+					{
+						"name": "this is the name",
+						"href": "",
+						"description": "This is what you can support",
+						"icon": "PhoneIcon"
+					},
+					{
+						"name": "this is the name",
+						"href": "",
+						"description": "This is what you can support",
+						"icon": "PhoneIcon"
+					},
+					{
+						"name": "this is the name",
+						"href": "",
+						"description": "This is what you can support",
+						"icon": "PhoneIcon"
+					}
+				]
+			},
+			"heroSection": {
+				"businessImage": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+				"businessTagline": "Hacker Collective",
+				"businessDescription": "We want to live in a world where everyone has equal abilities to learn new tech skills, monetise their skillsets and launch new ventures, without going in debt or spending a bomb for it.",
+				"businessLogo": "https://tailwindui.com/img/logos/workflow-mark-blue-600.svg",
+				"newsletter": {
+					"newsletterHeader": "Enter your email into a newsletter",
+					"newsletterSubheader": "We care about the protection of your data. Read our Privacy Policy."
+				},
+				"navigation": [],
+				"logoCloud": {
+					"trustedByNumber": 26000,
+					"companyImage": [
+						"https://tailwindui.com/img/logos/tuple-logo-gray-400.svg",
+						"https://tailwindui.com/img/logos/statickit-logo-gray-400.svg",
+						"https://tailwindui.com/img/logos/transistor-logo-gray-400.svg",
+						"https://tailwindui.com/img/logos/tuple-logo-gray-400.svg",
+						"https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
+					]
+				}
+			},
+			"logoSection": {
+				"header": "Trusted by how many company",
+				"actions": {
+					"primaryButton": "PrimaryButton",
+					"secondaryButton": "Secondary Button"
+				},
+				"companies": [
+					{
+						"name": "CompanyName",
+						"img": "https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+					},
+					{
+						"name": "CompanyName",
+						"img": "https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+					},
+					{
+						"name": "CompanyName",
+						"img": "https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+					},
+					{
+						"name": "CompanyName",
+						"img": "https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+					}
+				]
+			},
+			"newsletter": {
+				"subheader": "This is the subheader",
+				"header": "This is the header"
+			},
+			"pricing": {
+				"dropdownOptions": [
+					{
+						"name": "Month",
+						"value": "Month"
+					},
+					{
+						"name": "Year",
+						"value": "Year"
+					}
+				],
+				"group": [
+					{
+						"id": 0,
+						"price": "10",
+						"duration": "Month",
+						"headline": "Freelance",
+						"subheadline": "You get abit",
+						"samplePayload": "Sample Link",
+						"features": [
+							"Features for the pricing",
+							"Features for the pricing",
+							"Features for the pricing"
+						]
+					},
+					{
+						"id": 1,
+						"price": "10",
+						"duration": "Month",
+						"headline": "Freelance",
+						"subheadline": "You get abit",
+						"samplePayload": "Sample Link",
+						"features": [
+							"Features for the pricing",
+							"Features for the pricing",
+							"Features for the pricing"
+						]
+					},
+					{
+						"id": 2,
+						"price": "10",
+						"duration": "Month",
+						"headline": "Freelance",
+						"subheadline": "You get abit",
+						"samplePayload": "Sample Link",
+						"features": [
+							"Features for the pricing",
+							"Features for the pricing",
+							"Features for the pricing"
+						]
+					}
+				]
+			},
+			"stats": {
+				"tagline": "Deliver what your customer want every time",
+				"subheader": "Theis is the subheader This is another thing",
+				"img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
+				"stats": [
+					{
+						"stats": "This is the state",
+						"value": "100k+"
+					},
+					{
+						"stats": "This is the state",
+						"value": "1000%"
+					},
+					{
+						"stats": "This is the state",
+						"value": "24/7"
+					}
+				]
+			},
+			"teamSection": {
+				"teamMembers": [
+					{
+						"id": 10,
+						"name": "Ming ",
+						"position": "Founder",
+						"img": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"backgroundInformation": "Very Awesome"
+					},
+					{
+						"id": 0,
+						"name": "Ming ",
+						"position": "Founder",
+						"img": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"backgroundInformation": "Very Awesome"
+					},
+					{
+						"id": 1,
+						"name": "Deric",
+						"position": "Founder",
+						"img": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"backgroundInformation": "Very Awesome"
+					},
+					{
+						"id": 2,
+						"name": "Hello",
+						"position": "Software Engineer",
+						"img": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"backgroundInformation": "Very Awesome"
+					},
+					{
+						"id": 3,
+						"name": "Hello",
+						"position": "Software Engineer",
+						"img": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"backgroundInformation": "Very Awesome"
+					}
+				]
+			},
+			"testinomial": {
+				"group": [
+					{
+						"id": 0,
+						"name": "Michael Munar",
+						"image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"position": "Student turn Software Engineer",
+						"testimonials": "Would give 10 stars if I could.Definitely worth the time and the money, you would learn a lot of new tech stuff. Even with me being here in the Philippines and them being based on Malaysia, I had no issue in regards to classes and they always provide help anytime. I'm recommending this not only as a student, but also as one of their newly hired Junior Web Developer!"
+					},
+					{
+						"id": 1,
+						"name": "Hello Man",
+						"image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"position": "Student turn Software Engineer",
+						"testimonials": "Would give 10 stars if I could.Definitely worth the time and the money, you would learn a lot of new tech stuff. Even with me being here in the Philippines and them being based on Malaysia, I had no issue in regards to classes and they always provide help anytime. I'm recommending this not only as a student, but also as one of their newly hired Junior Web Developer!"
+					},
+					{
+						"id": 2,
+						"name": "Michael Muna12r",
+						"image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"position": "Student turn Software Engineer",
+						"testimonials": "Would give 10 stars if I could.Definitely worth the time and the money, you would learn a lot of new tech stuff. Even with me being here in the Philippines and them being based on Malaysia, I had no issue in regards to classes and they always provide help anytime. I'm recommending this not only as a student, but also as one of their newly hired Junior Web Developer!"
+					},
+					{
+						"id": 3,
+						"name": "Hello Man",
+						"image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+						"position": "Student turn Software Engineer",
+						"testimonials": "Would give 10 stars if I could.Definitely worth the time and the money, you would learn a lot of new tech stuff. Even with me being here in the Philippines and them being based on Malaysia, I had no issue in regards to classes and they always provide help anytime. I'm recommending this not only as a student, but also as one of their newly hired Junior Web Developer!"
+					}
+				]
+			}
+		}
+	},
+	"message": "get the data successfully",
+	"success": true
+}
