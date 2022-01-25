@@ -1,6 +1,7 @@
 [
   {
     "sectionName": "header section",
+	"sectionKeyName": "headerSection",
     "subHeading": "Define your business product. Attract your user!",
     "elements": [
       {
@@ -65,6 +66,7 @@
   },
   {
     "sectionName": "hero section",
+	"sectionKeyName": "heroSection",
     "subHeading": "Define your business product. Attract your user!",
     "elements": [
       {
@@ -145,6 +147,7 @@
   },
   {
     "sectionName": "logo section",
+	"sectionKeyName": "logoSection",
     "subHeading": "show partnership, sponsors and clients",
     "elements": [
       {
@@ -201,6 +204,7 @@
   },
   {
     "sectionName": "newsletter",
+	"sectionKeyName": "newsletter",
     "subHeading": "",
     "elements": [
       {
@@ -223,6 +227,7 @@
   },
   {
     "sectionName": "pricing",
+	"sectionKeyName": "pricing",
     "subHeading": "",
     "elements": [
       {
@@ -272,6 +277,7 @@
   },
   {
     "sectionName": "team",
+	"sectionKeyName": "teamSection",
     "subHeading": "Core team members",
     "elements": [
       {
@@ -304,6 +310,7 @@
   },
   {
     "sectionName": "testimonial",
+	"sectionKeyName": "testinomial",
     "subHeading": "Show client feedbacks",
     "elements": [
       {
@@ -336,6 +343,7 @@
   },
   {
     "sectionName": "stats",
+	"sectionKeyName": "stats",
     "subHeading": "",
     "elements": [
       {
@@ -392,6 +400,7 @@
   },
   {
     "sectionName": "contact section",
+	"sectionKeyName": "contactSection",
     "subHeading": "Define your business & marketing message",
     "elements": [
       {
@@ -465,6 +474,7 @@
   },
   {
     "sectionName": "Address",
+	"sectionKeyName": "contactSection",
     "subHeading": "List down your headquaters and branches",
     "elements": [
       {
@@ -497,6 +507,7 @@
   },
   {
     "sectionName": "blog section",
+	"sectionKeyName": "blogSection",
     "subHeading": "Talk about your success stories",
     "elements": [
       {
@@ -545,6 +556,7 @@
   },
   {
     "sectionName": "cta section",
+	"sectionKeyName": "CTASection",
     "subHeading": "prompt the user to the next step",
     "elements": [
       {
@@ -599,6 +611,7 @@
   },
   {
     "sectionName": "faq section",
+	"sectionKeyName": "FAQSection",
     "subHeading": "frequetly asked questions to display",
     "elements": [
       {
@@ -647,6 +660,7 @@
   },
   {
     "sectionName": "feature section",
+	"sectionKeyName": "featureSection",
     "subHeading": "Show your product features",
     "elements": [
       {
@@ -687,6 +701,7 @@
   },
   {
     "sectionName": "footer section",
+	"sectionKeyName": "footerSection",
     "subHeading": "Define your quick links",
     "elements": [
       {
@@ -767,8 +782,8 @@
     ]
   },
   {
-    "sectionName": "branding",
-    "key": "generalTheme",
+    "sectionName": "general theme",
+    "sectionKeyName": "generalTheme",
     "subHeading": "Memorable identifier for your business",
     "elements": [
       {
