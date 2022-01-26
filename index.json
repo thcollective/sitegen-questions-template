@@ -1,13 +1,13 @@
 [
   {
     "sectionName": "header section",
-	"sectionKeyName": "headerSection",
-    "subHeading": "Define your business product. Attract your user!",
+	  "sectionKeyName": "headerSection",
+    "subHeading": "Define your business product. Attract pontential customers!",
     "elements": [
       {
         "key": "tagline",
         "title": "",
-        "subTitle": "",
+        "subTitle": "What is your business motto",
         "type": "TEXTINPUT",
         "placeholder": "Business tagline",
         "width": "FULL"
@@ -15,7 +15,7 @@
       {
         "key": "header",
         "title": "",
-        "subTitle": "",
+        "subTitle": "Short Description of your business selling point!",
         "type": "TEXTINPUT",
         "placeholder": "Business Header",
         "width": "FULL"
@@ -23,7 +23,7 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "",
+        "subTitle": "Describe your business. What does your company do?",
         "type": "TEXTAREA",
         "placeholder": "Description",
         "width": "FULL"
@@ -31,9 +31,14 @@
       {
         "key": "img",
         "title": "",
-        "subTitle": "",
+        "subTitle": "Upload your company photo here.",
         "type": "IMAGE_UPLOAD",
         "placeholder": "",
+        "width": "FULL"
+      },
+      {
+        "title": "",
+        "subTitle": "Direct pontential customers to designated website link! (Company profile, Product links, Team, etc)",
         "width": "FULL"
       },
       {
@@ -66,8 +71,8 @@
   },
   {
     "sectionName": "hero section",
-	"sectionKeyName": "heroSection",
-    "subHeading": "Define your business product. Attract your user!",
+	  "sectionKeyName": "heroSection",
+    "subHeading": "What makes your company stand out from the crowd?",
     "elements": [
       {
         "key": "businessImg",
@@ -80,7 +85,7 @@
       {
         "key": "businessTagline",
         "title": "",
-        "subTitle": "",
+        "subTitle": "What you have to offer?",
         "type": "TEXTINPUT",
         "placeholder": "Business tagline",
         "width": "FULL"
@@ -147,7 +152,7 @@
   },
   {
     "sectionName": "logo section",
-	"sectionKeyName": "logoSection",
+	  "sectionKeyName": "logoSection",
     "subHeading": "show partnership, sponsors and clients",
     "elements": [
       {
@@ -204,7 +209,7 @@
   },
   {
     "sectionName": "newsletter",
-	"sectionKeyName": "newsletter",
+	  "sectionKeyName": "newsletter",
     "subHeading": "",
     "elements": [
       {
@@ -227,7 +232,7 @@
   },
   {
     "sectionName": "pricing",
-	"sectionKeyName": "pricing",
+	  "sectionKeyName": "pricing",
     "subHeading": "",
     "elements": [
       {
@@ -277,7 +282,7 @@
   },
   {
     "sectionName": "team",
-	"sectionKeyName": "teamSection",
+	  "sectionKeyName": "teamSection",
     "subHeading": "Core team members",
     "elements": [
       {
@@ -310,7 +315,7 @@
   },
   {
     "sectionName": "testimonial",
-	"sectionKeyName": "testinomial",
+	  "sectionKeyName": "testinomial",
     "subHeading": "Show client feedbacks",
     "elements": [
       {
@@ -343,7 +348,7 @@
   },
   {
     "sectionName": "stats",
-	"sectionKeyName": "stats",
+	  "sectionKeyName": "stats",
     "subHeading": "",
     "elements": [
       {
@@ -400,7 +405,7 @@
   },
   {
     "sectionName": "contact section",
-	"sectionKeyName": "contactSection",
+	  "sectionKeyName": "contactSection",
     "subHeading": "Define your business & marketing message",
     "elements": [
       {
@@ -474,7 +479,7 @@
   },
   {
     "sectionName": "Address",
-	"sectionKeyName": "contactSection",
+	  "sectionKeyName": "contactSection",
     "subHeading": "List down your headquaters and branches",
     "elements": [
       {
@@ -507,7 +512,7 @@
   },
   {
     "sectionName": "blog section",
-	"sectionKeyName": "blogSection",
+	  "sectionKeyName": "blogSection",
     "subHeading": "Talk about your success stories",
     "elements": [
       {
@@ -556,7 +561,7 @@
   },
   {
     "sectionName": "cta section",
-	"sectionKeyName": "CTASection",
+	  "sectionKeyName": "CTASection",
     "subHeading": "prompt the user to the next step",
     "elements": [
       {
@@ -611,7 +616,7 @@
   },
   {
     "sectionName": "faq section",
-	"sectionKeyName": "FAQSection",
+	  "sectionKeyName": "FAQSection",
     "subHeading": "frequetly asked questions to display",
     "elements": [
       {
@@ -660,7 +665,7 @@
   },
   {
     "sectionName": "feature section",
-	"sectionKeyName": "featureSection",
+	  "sectionKeyName": "featureSection",
     "subHeading": "Show your product features",
     "elements": [
       {
@@ -701,7 +706,7 @@
   },
   {
     "sectionName": "footer section",
-	"sectionKeyName": "footerSection",
+	  "sectionKeyName": "footerSection",
     "subHeading": "Define your quick links",
     "elements": [
       {
@@ -783,7 +788,7 @@
   },
   {
     "sectionName": "general theme",
-    "sectionKeyName": "generalTheme",
+      "sectionKeyName": "generalTheme",
     "subHeading": "Memorable identifier for your business",
     "elements": [
       {
