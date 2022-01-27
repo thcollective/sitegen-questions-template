@@ -45,9 +45,13 @@
         "key": "supportLinks",
         "title": "Support Links",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -93,7 +97,7 @@
       {
         "key": "businessDescription",
         "title": "",
-        "subTitle": "",
+        "subTitle": "Why people should trust you?",
         "type": "TEXTAREA",
         "placeholder": "Description",
         "width": "FULL"
@@ -126,9 +130,13 @@
         "key": "companyImage",
         "title": "Company Logos",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -183,9 +191,13 @@
         "key": "companies",
         "title": "Companies",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -239,7 +251,7 @@
         "key": "dropdownOptions",
         "title": "",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "choices": [
           {
             "key": "",
@@ -256,9 +268,13 @@
         "key": "group",
         "title": "Pricing Packages",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -289,9 +305,13 @@
         "key": "teamMembers",
         "title": "",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -322,9 +342,13 @@
         "key": "group",
         "title": "",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -379,9 +403,13 @@
         "key": "stats",
         "title": "Stats",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -436,7 +464,7 @@
         "key": "showContactUsForm",
         "title": "Show Contact Us Form?",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTINPUT",
         "choices": [
           {
             "name": "True",
@@ -453,9 +481,13 @@
         "key": "contactInformation",
         "title": "Contact Information",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -486,9 +518,13 @@
         "key": "addresses",
         "title": "Addresses",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -535,9 +571,13 @@
         "key": "posts",
         "title": "Blog Post",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -639,9 +679,13 @@
         "key": "faqs",
         "title": "Frequently Asked Questions",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -680,9 +724,13 @@
         "key": "group",
         "title": "Features",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -737,7 +785,7 @@
         "key": "addNewsletter",
         "title": "Add News Letter?",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTINPUT",
         "choices": [
           {
             "name": "True",
@@ -754,9 +802,13 @@
         "key": "navigation",
         "title": "Navigation links",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTNUMBER",
         "defaultValue": 0,
         "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
           {
             "name": "1",
             "value": 1
@@ -803,7 +855,7 @@
         "key": "pageStyle",
         "title": "",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTINPUT",
         "choices": [
           {
             "name": "block",
@@ -820,7 +872,7 @@
         "key": "fontFamily",
         "title": "",
         "subTitle": "",
-        "type": "SELECT",
+        "type": "SELECTINPUT",
         "defaultValue": "Font style",
         "choices": [
           {
