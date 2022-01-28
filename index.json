@@ -265,7 +265,7 @@
         "width": "HALF"
       },
       {
-        "key": "group",
+        "key": "pricingGroup",
         "title": "Pricing Packages",
         "subTitle": "",
         "type": "SELECTNUMBER",
@@ -339,7 +339,7 @@
     "subHeading": "Show client feedbacks",
     "elements": [
       {
-        "key": "group",
+        "key": "testimonialGroup",
         "title": "",
         "subTitle": "",
         "type": "SELECTNUMBER",
@@ -721,7 +721,7 @@
         "width": "FULL"
       },
       {
-        "key": "group",
+        "key": "featureGroup",
         "title": "Features",
         "subTitle": "",
         "type": "SELECTNUMBER",
