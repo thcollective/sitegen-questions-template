@@ -363,7 +363,7 @@
     "subHeading": "Show client feedbacks",
     "elements": [
       {
-        "key": "testimonialGroup",
+        "key": "testinomialGroup",
         "title": "",
         "subTitle": "",
         "type": "SELECTNUMBER",
@@ -424,7 +424,7 @@
         "width": "FULL"
       },
       {
-        "key": "stats",
+        "key": "statsList",
         "title": "Stats",
         "subTitle": "",
         "type": "SELECTNUMBER",
