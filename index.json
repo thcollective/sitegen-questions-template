@@ -152,6 +152,14 @@
           {
             "name": "4",
             "value": 4
+          },
+          {
+            "name": "5",
+            "value": 5
+          },
+          {
+            "name": "6",
+            "value": 6
           }
         ],
         "width": "FULL"
@@ -327,6 +335,22 @@
           {
             "name": "4",
             "value": 4
+          },
+          {
+            "name": "5",
+            "value": 5
+          },
+          {
+            "name": "6",
+            "value": 6
+          },
+          {
+            "name": "7",
+            "value": 7
+          },
+          {
+            "name": "8",
+            "value": 8
           }
         ],
         "width": "FULL"
@@ -746,6 +770,22 @@
           {
             "name": "4",
             "value": 4
+          },
+          {
+            "name": "5",
+            "value": 5
+          },
+          {
+            "name": "6",
+            "value": 6
+          },
+          {
+            "name": "7",
+            "value": 7
+          },
+          {
+            "name": "8",
+            "value": 8
           }
         ],
         "width": "FULL"
