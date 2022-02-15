@@ -4,8 +4,8 @@
     "subHeading": "Define your business product. Attract your user!",
     "contents": [
       {
-        "key": "header",
-        "title": "Header Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -13,26 +13,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -43,8 +85,8 @@
     "subHeading": "Define your business product. Attract your user!",
     "contents": [
       {
-        "key": "hero",
-        "title": "Hero Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -52,26 +94,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -82,8 +166,8 @@
     "subHeading": "show partnership, sponsors and clients",
     "contents": [
       {
-        "key": "logo",
-        "title": "Logo Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -91,26 +175,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -121,8 +247,8 @@
     "subHeading": "",
     "contents": [
       {
-        "key": "header",
-        "title": "Newsletter",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -130,26 +256,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -160,8 +328,8 @@
     "subHeading": "",
     "contents": [
       {
-        "key": "pricing",
-        "title": "Pricing Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -169,26 +337,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -199,8 +409,8 @@
     "subHeading": "Core team members",
     "contents": [
       {
-        "key": "team",
-        "title": "Team Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -208,26 +418,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -238,8 +490,8 @@
     "subHeading": "Show client feedbacks",
     "contents": [
       {
-        "key": "testimonial",
-        "title": "Testimonial Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -247,26 +499,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -277,8 +571,8 @@
     "subHeading": "",
     "contents": [
       {
-        "key": "stats",
-        "title": "Stats Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -286,26 +580,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -316,8 +652,8 @@
     "subHeading": "Define your business & marketing message",
     "contents": [
       {
-        "key": "contactSection ",
-        "title": "Contact Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -325,26 +661,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -355,8 +733,8 @@
     "subHeading": "List down your headquaters and branches",
     "contents": [
       {
-        "key": "address",
-        "title": "Address",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -364,26 +742,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -394,8 +814,8 @@
     "subHeading": "Talk about your success stories",
     "contents": [
       {
-        "key": "blog",
-        "title": "Blog Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -403,26 +823,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -433,8 +895,8 @@
     "subHeading": "prompt the user to the next step",
     "contents": [
       {
-        "key": "cta",
-        "title": "CTA Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -442,26 +904,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -472,8 +976,8 @@
     "subHeading": "frequetly asked questions to display",
     "contents": [
       {
-        "key": "faq",
-        "title": "FAQ Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -481,26 +985,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -511,8 +1057,8 @@
     "subHeading": "Show your product features",
     "contents": [
       {
-        "key": "feature",
-        "title": "Feature Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -520,26 +1066,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -550,8 +1138,8 @@
     "subHeading": "Define your quick links",
     "contents": [
       {
-        "key": "footer",
-        "title": "Footer Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -559,26 +1147,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
@@ -590,8 +1220,8 @@
     "subHeading": "Memorable identifier for your business",
     "contents": [
       {
-        "key": "branding",
-        "title": "Branding Section",
+        "key": "title",
+        "title": "5 tips for creating a successful tagline",
         "subTitle": "",
         "type": "TITLE",
         "width": "FULL"
@@ -599,26 +1229,68 @@
       {
         "key": "description",
         "title": "",
-        "subTitle": "this is the description talking about guide to fill up the section.",
+        "subTitle": "1. KEEP IT SIMPLE",
         "type": "DESCRIPTION",
         "width": "FULL"
       },
       {
-        "key": "sectionImage",
-        "type": "IMAGE",
-        "link": "https://images.unsplash.com/photo-1501031170107-cfd33f0cbdcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&h=600&q=80",
-        "width": "FULL"
-      },
-      {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "keyPoints",
+        "title": "Key Points",
         "subTitle": "",
         "type": "LIST",
         "choices": [
-          "This is the first point",
-          "This is the first point",
-          "This is the first point",
-          "This is the first point"
+          "Most successful slogans are only 3-6 words long and get the point across without much thought. Ideally, your tagline should be six words or fewer (with some exceptions that I’ll share in the examples section at the end)."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "2. GIVE IT MEANING",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "A tagline shouldn’t be made just because you saw some famous companies have one. If you’re going to invest the mental energy and marketing budget to craft a catchphrase, it should truly bring meaning to your brand. Otherwise, just skip creating one altogether."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "3. CLARITY IS KEY",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "There should be no guessing as to what your tagline means. In addition to being simple, it should clearly state the mission or purpose of your company without any guesswork. If you ask some friends what they think, and they ask questions back, you did it wrong."
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "4. FOCUS ON THE BENEFITS",
+        "type": "DESCRIPTION",
+        "width": "FULL"
+      },
+      {
+        "key": "keyPoints",
+        "title": "Key Points",
+        "subTitle": "",
+        "type": "LIST",
+        "choices": [
+          "Customers care about benefits, not features — and that goes for your tagline as well. It should tell your audience the main benefit of your brand or product without sharing “features.” For example, convenience is a benefit, whereas a removable part for easy cleaning is a feature."
         ],
         "width": "FULL"
       }
