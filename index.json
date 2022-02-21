@@ -1,6 +1,6 @@
 [
   {
-    "sectionName": "header section",
+    "sectionName": "Header Section",
 	  "sectionKeyName": "headerSection",
     "subHeading": "Define your business product. Attract pontential customers!",
     "required": false,
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "sectionName": "hero section",
+    "sectionName": "Hero Section",
 	  "sectionKeyName": "heroSection",
     "subHeading": "What makes your company stand out from the crowd?",
     "required": true,
@@ -169,7 +169,7 @@
     ]
   },
   {
-    "sectionName": "logo section",
+    "sectionName": "Logo Section",
 	  "sectionKeyName": "logoSection",
     "subHeading": "show partnership, sponsors and clients",
     "required": false,
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "sectionName": "newsletter",
+    "sectionName": "Newsletter Section",
 	  "sectionKeyName": "newsletter",
     "subHeading": "",
     "required": true,
@@ -255,7 +255,7 @@
     ]
   },
   {
-    "sectionName": "pricing",
+    "sectionName": "Pricing Section",
 	  "sectionKeyName": "pricing",
     "subHeading": "",
     "required": true,
@@ -293,7 +293,7 @@
     ]
   },
   {
-    "sectionName": "team",
+    "sectionName": "Team Section",
 	  "sectionKeyName": "teamSection",
     "subHeading": "Core team members",
     "required": false,
@@ -347,7 +347,7 @@
     ]
   },
   {
-    "sectionName": "testimonial",
+    "sectionName": "Testimonial Section",
 	  "sectionKeyName": "testinomial",
     "subHeading": "Show client feedbacks",
     "required": false,
@@ -389,7 +389,7 @@
     ]
   },
   {
-    "sectionName": "stats",
+    "sectionName": "Stats Section",
 	  "sectionKeyName": "stats",
     "subHeading": "",
     "required": false,
@@ -451,7 +451,7 @@
     ]
   },
   {
-    "sectionName": "contact section",
+    "sectionName": "Contact Section",
 	  "sectionKeyName": "contactSection",
     "subHeading": "Define your business & marketing message",
     "required": false,
@@ -568,7 +568,7 @@
     ]
   },
   {
-    "sectionName": "blog section",
+    "sectionName": "Blog Section",
 	  "sectionKeyName": "blogSection",
     "subHeading": "Talk about your success stories",
     "required": false,
@@ -622,7 +622,7 @@
     ]
   },
   {
-    "sectionName": "CTA section",
+    "sectionName": "CTA Section",
 	  "sectionKeyName": "CTASection",
     "subHeading": "prompt the user to the next step",
     "required": false,
@@ -678,7 +678,7 @@
     ]
   },
   {
-    "sectionName": "FAQ section",
+    "sectionName": "FAQ Section",
 	  "sectionKeyName": "FAQSection",
     "subHeading": "frequetly asked questions to display",
     "required": false,
@@ -732,7 +732,7 @@
     ]
   },
   {
-    "sectionName": "feature section",
+    "sectionName": "Feature Section",
 	  "sectionKeyName": "featureSection",
     "subHeading": "Show your product features",
     "required": false,
@@ -794,7 +794,7 @@
     ]
   },
   {
-    "sectionName": "footer section",
+    "sectionName": "Footer Section",
 	  "sectionKeyName": "footerSection",
     "subHeading": "Define your quick links",
     "required": true,
@@ -881,7 +881,7 @@
     ]
   },
   {
-    "sectionName": "general theme",
+    "sectionName": "General Theme",
     "sectionKeyName": "generalTheme",
     "subHeading": "Memorable identifier for your business",
     "required": true,
