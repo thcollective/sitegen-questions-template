@@ -622,7 +622,7 @@
     ]
   },
   {
-    "sectionName": "cta section",
+    "sectionName": "CTA section",
 	  "sectionKeyName": "CTASection",
     "subHeading": "prompt the user to the next step",
     "required": false,
@@ -678,7 +678,7 @@
     ]
   },
   {
-    "sectionName": "faq section",
+    "sectionName": "FAQ section",
 	  "sectionKeyName": "FAQSection",
     "subHeading": "frequetly asked questions to display",
     "required": false,
