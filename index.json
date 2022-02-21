@@ -261,23 +261,6 @@
     "required": true,
     "elements": [
       {
-        "key": "dropdownOptions",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECTNUMBER",
-        "choices": [
-          {
-            "key": "",
-            "name": "Month"
-          },
-          {
-            "key": "",
-            "name": "Year"
-          }
-        ],
-        "width": "HALF"
-      },
-      {
         "key": "pricingGroup",
         "title": "Pricing Packages",
         "subTitle": "",
