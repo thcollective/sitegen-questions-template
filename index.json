@@ -3,6 +3,7 @@
     "sectionName": "header section",
 	  "sectionKeyName": "headerSection",
     "subHeading": "Define your business product. Attract pontential customers!",
+    "required": false,
     "elements": [
       {
         "key": "tagline",
@@ -77,6 +78,7 @@
     "sectionName": "hero section",
 	  "sectionKeyName": "heroSection",
     "subHeading": "What makes your company stand out from the crowd?",
+    "required": true,
     "elements": [
       {
         "key": "businessImg",
@@ -170,6 +172,7 @@
     "sectionName": "logo section",
 	  "sectionKeyName": "logoSection",
     "subHeading": "show partnership, sponsors and clients",
+    "required": false,
     "elements": [
       {
         "key": "header",
@@ -231,6 +234,7 @@
     "sectionName": "newsletter",
 	  "sectionKeyName": "newsletter",
     "subHeading": "",
+    "required": true,
     "elements": [
       {
         "key": "header",
@@ -254,6 +258,7 @@
     "sectionName": "pricing",
 	  "sectionKeyName": "pricing",
     "subHeading": "",
+    "required": true,
     "elements": [
       {
         "key": "dropdownOptions",
@@ -308,6 +313,7 @@
     "sectionName": "team",
 	  "sectionKeyName": "teamSection",
     "subHeading": "Core team members",
+    "required": false,
     "elements": [
       {
         "key": "teamMembers",
@@ -361,6 +367,7 @@
     "sectionName": "testimonial",
 	  "sectionKeyName": "testinomial",
     "subHeading": "Show client feedbacks",
+    "required": false,
     "elements": [
       {
         "key": "testinomialGroup",
@@ -402,6 +409,7 @@
     "sectionName": "stats",
 	  "sectionKeyName": "stats",
     "subHeading": "",
+    "required": false,
     "elements": [
       {
         "key": "tagline",
@@ -463,6 +471,7 @@
     "sectionName": "contact section",
 	  "sectionKeyName": "contactSection",
     "subHeading": "Define your business & marketing message",
+    "required": false,
     "elements": [
       {
         "key": "sectionTitle",
@@ -541,6 +550,7 @@
     "sectionName": "Address",
 	  "sectionKeyName": "contactSection",
     "subHeading": "List down your headquaters and branches",
+    "required": false,
     "elements": [
       {
         "key": "addresses",
@@ -578,6 +588,7 @@
     "sectionName": "blog section",
 	  "sectionKeyName": "blogSection",
     "subHeading": "Talk about your success stories",
+    "required": false,
     "elements": [
       {
         "key": "header",
@@ -631,6 +642,7 @@
     "sectionName": "cta section",
 	  "sectionKeyName": "CTASection",
     "subHeading": "prompt the user to the next step",
+    "required": false,
     "elements": [
       {
         "key": "CTACompanyName",
@@ -686,6 +698,7 @@
     "sectionName": "faq section",
 	  "sectionKeyName": "FAQSection",
     "subHeading": "frequetly asked questions to display",
+    "required": false,
     "elements": [
       {
         "key": "FAQHeader",
@@ -739,6 +752,7 @@
     "sectionName": "feature section",
 	  "sectionKeyName": "featureSection",
     "subHeading": "Show your product features",
+    "required": false,
     "elements": [
       {
         "key": "businessName",
@@ -800,6 +814,7 @@
     "sectionName": "footer section",
 	  "sectionKeyName": "footerSection",
     "subHeading": "Define your quick links",
+    "required": true,
     "elements": [
       {
         "key": "tagline",
@@ -884,8 +899,9 @@
   },
   {
     "sectionName": "general theme",
-      "sectionKeyName": "generalTheme",
+    "sectionKeyName": "generalTheme",
     "subHeading": "Memorable identifier for your business",
+    "required": true,
     "elements": [
       {
         "key": "themeColor",
