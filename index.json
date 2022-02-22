@@ -1,73 +1,53 @@
 [
   {
-    "sectionName": "Header Section",
-	  "sectionKeyName": "headerSection",
-    "subHeading": "Define your business product. Attract pontential customers!",
-    "required": false,
+    "sectionName": "General Theme",
+    "sectionKeyName": "generalTheme",
+    "subHeading": "Memorable identifier for your business",
+    "required": true,
     "elements": [
       {
-        "key": "tagline",
+        "key": "themeColor",
         "title": "",
-        "subTitle": "What is your business motto",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "header",
-        "title": "",
-        "subTitle": "Short Description of your business selling point!",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Header",
-        "width": "FULL"
-      },
-      {
-        "key": "description",
-        "title": "",
-        "subTitle": "Describe your business. What does your company do?",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "img",
-        "title": "",
-        "subTitle": "Upload your company photo here.",
-        "type": "IMAGE_UPLOAD",
+        "subTitle": "",
+        "type": "BRANDING",
         "placeholder": "",
         "width": "FULL"
       },
       {
+        "key": "pageStyle",
         "title": "",
-        "subTitle": "Direct pontential customers to designated website link! (Company profile, Product links, Team, etc)",
+        "subTitle": "",
+        "type": "SELECTINPUT",
+        "choices": [
+          {
+            "name": "block",
+            "value": "block"
+          },
+          {
+            "name": "carousel",
+            "value": "carousel"
+          }
+        ],
         "width": "FULL"
       },
       {
-        "key": "supportLinks",
-        "title": "Support Links",
+        "key": "fontFamily",
+        "title": "",
         "subTitle": "",
-        "type": "SELECTNUMBER",
-        "defaultValue": 0,
+        "type": "SELECTINPUT",
+        "defaultValue": "Font style",
         "choices": [
           {
-            "name": "0",
-            "value": 0
+            "name": "font style A",
+            "value": "font style A"
           },
           {
-            "name": "1",
-            "value": 1
+            "name": "font style B",
+            "value": "font style B"
           },
           {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
+            "name": "font style C",
+            "value": "font style C"
           }
         ],
         "width": "FULL"
@@ -169,38 +149,14 @@
     ]
   },
   {
-    "sectionName": "Logo Section",
-	  "sectionKeyName": "logoSection",
-    "subHeading": "show partnership, sponsors and clients",
-    "required": false,
+    "sectionName": "Pricing Section",
+	  "sectionKeyName": "pricing",
+    "subHeading": "",
+    "required": true,
     "elements": [
       {
-        "key": "header",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Header",
-        "width": "FULL"
-      },
-      {
-        "key": "primaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Primary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "secondaryButton",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Secondary Call-to-action Button",
-        "width": "HALF"
-      },
-      {
-        "key": "companies",
-        "title": "Companies",
+        "key": "pricingGroup",
+        "title": "Pricing Packages",
         "subTitle": "",
         "type": "SELECTNUMBER",
         "defaultValue": 0,
@@ -255,14 +211,200 @@
     ]
   },
   {
-    "sectionName": "Pricing Section",
-	  "sectionKeyName": "pricing",
-    "subHeading": "",
+    "sectionName": "Footer Section",
+	  "sectionKeyName": "footerSection",
+    "subHeading": "Define your quick links",
     "required": true,
     "elements": [
       {
-        "key": "pricingGroup",
-        "title": "Pricing Packages",
+        "key": "tagline",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTINPUT",
+        "placeholder": "Business tagline",
+        "width": "FULL"
+      },
+      {
+        "key": "businessName",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTINPUT",
+        "placeholder": "Business Name",
+        "width": "FULL"
+      },
+      {
+        "key": "businessLogo",
+        "title": "",
+        "subTitle": "",
+        "type": "IMAGE_UPLOAD",
+        "placeholder": "",
+        "width": "FULL"
+      },
+      {
+        "key": "addNewsletter",
+        "title": "Add News Letter?",
+        "subTitle": "",
+        "type": "SELECTINPUT",
+        "choices": [
+          {
+            "name": "True",
+            "value": true
+          },
+          {
+            "name": "False",
+            "value": false
+          }
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "navigation",
+        "title": "Navigation links",
+        "subTitle": "",
+        "type": "SELECTNUMBER",
+        "defaultValue": 0,
+        "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
+          {
+            "name": "1",
+            "value": 1
+          },
+          {
+            "name": "2",
+            "value": 2
+          },
+          {
+            "name": "3",
+            "value": 3
+          },
+          {
+            "name": "4",
+            "value": 4
+          },
+          {
+            "name": "5",
+            "value": 5
+          },
+          {
+            "name": "6",
+            "value": 6
+          }
+        ],
+        "width": "FULL"
+      }
+    ]
+  },
+  {
+    "sectionName": "Header Section",
+	  "sectionKeyName": "headerSection",
+    "subHeading": "Define your business product. Attract pontential customers!",
+    "required": false,
+    "elements": [
+      {
+        "key": "tagline",
+        "title": "",
+        "subTitle": "What is your business motto",
+        "type": "TEXTINPUT",
+        "placeholder": "Business tagline",
+        "width": "FULL"
+      },
+      {
+        "key": "header",
+        "title": "",
+        "subTitle": "Short Description of your business selling point!",
+        "type": "TEXTINPUT",
+        "placeholder": "Business Header",
+        "width": "FULL"
+      },
+      {
+        "key": "description",
+        "title": "",
+        "subTitle": "Describe your business. What does your company do?",
+        "type": "TEXTAREA",
+        "placeholder": "Description",
+        "width": "FULL"
+      },
+      {
+        "key": "img",
+        "title": "",
+        "subTitle": "Upload your company photo here.",
+        "type": "IMAGE_UPLOAD",
+        "placeholder": "",
+        "width": "FULL"
+      },
+      {
+        "title": "",
+        "subTitle": "Direct pontential customers to designated website link! (Company profile, Product links, Team, etc)",
+        "width": "FULL"
+      },
+      {
+        "key": "supportLinks",
+        "title": "Support Links",
+        "subTitle": "",
+        "type": "SELECTNUMBER",
+        "defaultValue": 0,
+        "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
+          {
+            "name": "1",
+            "value": 1
+          },
+          {
+            "name": "2",
+            "value": 2
+          },
+          {
+            "name": "3",
+            "value": 3
+          },
+          {
+            "name": "4",
+            "value": 4
+          }
+        ],
+        "width": "FULL"
+      }
+    ]
+  },
+  {
+    "sectionName": "Logo Section",
+	  "sectionKeyName": "logoSection",
+    "subHeading": "show partnership, sponsors and clients",
+    "required": false,
+    "elements": [
+      {
+        "key": "header",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTINPUT",
+        "placeholder": "Header",
+        "width": "FULL"
+      },
+      {
+        "key": "primaryButton",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTINPUT",
+        "placeholder": "Primary Call-to-action Button",
+        "width": "HALF"
+      },
+      {
+        "key": "secondaryButton",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTINPUT",
+        "placeholder": "Secondary Call-to-action Button",
+        "width": "HALF"
+      },
+      {
+        "key": "companies",
+        "title": "Companies",
         "subTitle": "",
         "type": "SELECTNUMBER",
         "defaultValue": 0,
@@ -792,148 +934,5 @@
         "width": "FULL"
       }
     ]
-  },
-  {
-    "sectionName": "Footer Section",
-	  "sectionKeyName": "footerSection",
-    "subHeading": "Define your quick links",
-    "required": true,
-    "elements": [
-      {
-        "key": "tagline",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business tagline",
-        "width": "FULL"
-      },
-      {
-        "key": "businessName",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Business Name",
-        "width": "FULL"
-      },
-      {
-        "key": "businessLogo",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "addNewsletter",
-        "title": "Add News Letter?",
-        "subTitle": "",
-        "type": "SELECTINPUT",
-        "choices": [
-          {
-            "name": "True",
-            "value": true
-          },
-          {
-            "name": "False",
-            "value": false
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "navigation",
-        "title": "Navigation links",
-        "subTitle": "",
-        "type": "SELECTNUMBER",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "0",
-            "value": 0
-          },
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          },
-          {
-            "name": "5",
-            "value": 5
-          },
-          {
-            "name": "6",
-            "value": 6
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "General Theme",
-    "sectionKeyName": "generalTheme",
-    "subHeading": "Memorable identifier for your business",
-    "required": true,
-    "elements": [
-      {
-        "key": "themeColor",
-        "title": "",
-        "subTitle": "",
-        "type": "BRANDING",
-        "placeholder": "",
-        "width": "FULL"
-      },
-      {
-        "key": "pageStyle",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECTINPUT",
-        "choices": [
-          {
-            "name": "block",
-            "value": "block"
-          },
-          {
-            "name": "carousel",
-            "value": "carousel"
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "fontFamily",
-        "title": "",
-        "subTitle": "",
-        "type": "SELECTINPUT",
-        "defaultValue": "Font style",
-        "choices": [
-          {
-            "name": "font style A",
-            "value": "font style A"
-          },
-          {
-            "name": "font style B",
-            "value": "font style B"
-          },
-          {
-            "name": "font style C",
-            "value": "font style C"
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
   }
-
 ]
