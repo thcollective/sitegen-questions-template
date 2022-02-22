@@ -593,123 +593,6 @@
     ]
   },
   {
-    "sectionName": "Contact Section",
-	  "sectionKeyName": "contactSection",
-    "subHeading": "Define your business & marketing message",
-    "required": false,
-    "elements": [
-      {
-        "key": "sectionTitle",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTINPUT",
-        "placeholder": "Title",
-        "width": "FULL"
-      },
-      {
-        "key": "sectionDescription",
-        "title": "",
-        "subTitle": "",
-        "type": "TEXTAREA",
-        "placeholder": "Description",
-        "width": "FULL"
-      },
-      {
-        "key": "sectionImage",
-        "title": "",
-        "subTitle": "",
-        "type": "IMAGE_UPLOAD",
-        "placeholder": "Upload an image",
-        "width": "FULL"
-      },
-      {
-        "key": "showContactUsForm",
-        "title": "Show Contact Us Form?",
-        "subTitle": "",
-        "type": "SELECTINPUT",
-        "choices": [
-          {
-            "name": "True",
-            "value": true
-          },
-          {
-            "name": "False",
-            "value": false
-          }
-        ],
-        "width": "FULL"
-      },
-      {
-        "key": "contactInformation",
-        "title": "Contact Information",
-        "subTitle": "",
-        "type": "SELECTNUMBER",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "0",
-            "value": 0
-          },
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
-    "sectionName": "Address",
-	  "sectionKeyName": "contactSection",
-    "subHeading": "List down your headquaters and branches",
-    "required": false,
-    "elements": [
-      {
-        "key": "addresses",
-        "title": "Addresses",
-        "subTitle": "",
-        "type": "SELECTNUMBER",
-        "defaultValue": 0,
-        "choices": [
-          {
-            "name": "0",
-            "value": 0
-          },
-          {
-            "name": "1",
-            "value": 1
-          },
-          {
-            "name": "2",
-            "value": 2
-          },
-          {
-            "name": "3",
-            "value": 3
-          },
-          {
-            "name": "4",
-            "value": 4
-          }
-        ],
-        "width": "FULL"
-      }
-    ]
-  },
-  {
     "sectionName": "Blog Section",
 	  "sectionKeyName": "blogSection",
     "subHeading": "Talk about your success stories",
@@ -929,6 +812,123 @@
           {
             "name": "8",
             "value": 8
+          }
+        ],
+        "width": "FULL"
+      }
+    ]
+  }
+  {
+    "sectionName": "Contact Section",
+	  "sectionKeyName": "contactSection",
+    "subHeading": "Define your business & marketing message",
+    "required": false,
+    "elements": [
+      {
+        "key": "sectionTitle",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTINPUT",
+        "placeholder": "Title",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionDescription",
+        "title": "",
+        "subTitle": "",
+        "type": "TEXTAREA",
+        "placeholder": "Description",
+        "width": "FULL"
+      },
+      {
+        "key": "sectionImage",
+        "title": "",
+        "subTitle": "",
+        "type": "IMAGE_UPLOAD",
+        "placeholder": "Upload an image",
+        "width": "FULL"
+      },
+      {
+        "key": "showContactUsForm",
+        "title": "Show Contact Us Form?",
+        "subTitle": "",
+        "type": "SELECTINPUT",
+        "choices": [
+          {
+            "name": "True",
+            "value": true
+          },
+          {
+            "name": "False",
+            "value": false
+          }
+        ],
+        "width": "FULL"
+      },
+      {
+        "key": "contactInformation",
+        "title": "Contact Information",
+        "subTitle": "",
+        "type": "SELECTNUMBER",
+        "defaultValue": 0,
+        "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
+          {
+            "name": "1",
+            "value": 1
+          },
+          {
+            "name": "2",
+            "value": 2
+          },
+          {
+            "name": "3",
+            "value": 3
+          },
+          {
+            "name": "4",
+            "value": 4
+          }
+        ],
+        "width": "FULL"
+      }
+    ]
+  },
+  {
+    "sectionName": "Address",
+	  "sectionKeyName": "contactSection",
+    "subHeading": "List down your headquaters and branches",
+    "required": false,
+    "elements": [
+      {
+        "key": "addresses",
+        "title": "Addresses",
+        "subTitle": "",
+        "type": "SELECTNUMBER",
+        "defaultValue": 0,
+        "choices": [
+          {
+            "name": "0",
+            "value": 0
+          },
+          {
+            "name": "1",
+            "value": 1
+          },
+          {
+            "name": "2",
+            "value": 2
+          },
+          {
+            "name": "3",
+            "value": 3
+          },
+          {
+            "name": "4",
+            "value": 4
           }
         ],
         "width": "FULL"
