@@ -1,6 +1,6 @@
 [
   {
-    "sectionName": "header section",
+    "sectionName": "Header Section",
     "subHeading": "Define your business product. Attract your user!",
     "contents": [
       {
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "sectionName": "hero section",
+    "sectionName": "Hero Section",
     "subHeading": "Define your business product. Attract your user!",
     "contents": [
       {
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "sectionName": "logo section",
+    "sectionName": "Logo Section",
     "subHeading": "show partnership, sponsors and clients",
     "contents": [
       {
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "sectionName": "newsletter",
+    "sectionName": "Newsletter Section",
     "subHeading": "",
     "contents": [
       {
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "sectionName": "pricing",
+    "sectionName": "Pricing Section",
     "subHeading": "",
     "contents": [
       {
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "sectionName": "team",
+    "sectionName": "Team Section",
     "subHeading": "Core team members",
     "contents": [
       {
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "sectionName": "testimonial",
+    "sectionName": "Testimonial Section",
     "subHeading": "Show client feedbacks",
     "contents": [
       {
@@ -567,7 +567,7 @@
     ]
   },
   {
-    "sectionName": "stats",
+    "sectionName": "Stats Section",
     "subHeading": "",
     "contents": [
       {
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "sectionName": "contact section",
+    "sectionName": "Contact Section",
     "subHeading": "Define your business & marketing message",
     "contents": [
       {
@@ -810,7 +810,7 @@
     ]
   },
   {
-    "sectionName": "blog section",
+    "sectionName": "Blog Section",
     "subHeading": "Talk about your success stories",
     "contents": [
       {
@@ -891,7 +891,7 @@
     ]
   },
   {
-    "sectionName": "cta section",
+    "sectionName": "CTA Section",
     "subHeading": "prompt the user to the next step",
     "contents": [
       {
@@ -972,7 +972,7 @@
     ]
   },
   {
-    "sectionName": "faq section",
+    "sectionName": "FAQ Section",
     "subHeading": "frequetly asked questions to display",
     "contents": [
       {
@@ -1053,7 +1053,7 @@
     ]
   },
   {
-    "sectionName": "feature section",
+    "sectionName": "Feature Section",
     "subHeading": "Show your product features",
     "contents": [
       {
@@ -1134,7 +1134,7 @@
     ]
   },
   {
-    "sectionName": "footer section",
+    "sectionName": "Footer Section",
     "subHeading": "Define your quick links",
     "contents": [
       {
@@ -1215,7 +1215,7 @@
     ]
   },
   {
-    "sectionName": "branding",
+    "sectionName": "General Theme",
     "key": "generalTheme",
     "subHeading": "Memorable identifier for your business",
     "contents": [
