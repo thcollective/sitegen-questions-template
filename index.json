@@ -61,7 +61,7 @@
     "required": true,
     "elements": [
       {
-        "key": "businessImg",
+        "key": "businessImage",
         "title": "Business Image",
         "subTitle": "",
         "type": "IMAGE_UPLOAD",
