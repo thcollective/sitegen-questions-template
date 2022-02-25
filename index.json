@@ -57,7 +57,7 @@
   {
     "sectionName": "Hero Section",
 	  "sectionKeyName": "heroSection",
-    "subHeading": "What makes your company stand out from the crowd?",
+    "subHeading": "The main highlight of the company. This is the first section your visitors will see.",
     "required": true,
     "elements": [
       {
@@ -151,7 +151,7 @@
   {
     "sectionName": "Pricing Section",
 	  "sectionKeyName": "pricing",
-    "subHeading": "",
+    "subHeading": "Communicate the pricing of your service/product.",
     "required": true,
     "elements": [
       {
@@ -189,7 +189,7 @@
   {
     "sectionName": "Newsletter Section",
 	  "sectionKeyName": "newsletter",
-    "subHeading": "",
+    "subHeading": "Invite users to subscribe to your newsletter for regular updates.",
     "required": true,
     "elements": [
       {
@@ -213,7 +213,7 @@
   {
     "sectionName": "Footer Section",
 	  "sectionKeyName": "footerSection",
-    "subHeading": "Define your quick links",
+    "subHeading": "Include quick navigation links and copyright info at the bottom of your site.",
     "required": true,
     "elements": [
       {
@@ -533,7 +533,7 @@
   {
     "sectionName": "Stats Section",
 	  "sectionKeyName": "stats",
-    "subHeading": "",
+    "subHeading": "Showcase important numbers of your business here.",
     "required": false,
     "elements": [
       {
@@ -595,7 +595,7 @@
   {
     "sectionName": "Blog Section",
 	  "sectionKeyName": "blogSection",
-    "subHeading": "Talk about your success stories",
+    "subHeading": "Direct users to your blog posts for additional resources, information, and success stories.",
     "required": false,
     "elements": [
       {
@@ -649,7 +649,7 @@
   {
     "sectionName": "CTA Section",
 	  "sectionKeyName": "CTASection",
-    "subHeading": "prompt the user to the next step",
+    "subHeading": "Prompt your visitors to take the next step and amplify your business conversion.",
     "required": false,
     "elements": [
       {
