@@ -152,7 +152,7 @@
     "sectionName": "Pricing Section",
 	  "sectionKeyName": "pricing",
     "subHeading": "Communicate the pricing of your service/product.",
-    "required": true,
+    "required": false,
     "elements": [
       {
         "key": "pricingGroup",
