@@ -1050,7 +1050,7 @@
             "key": "trustedByNumber",
             "title": "",
             "subTitle": "",
-            "type": "TEXTINPUT",
+            "type": "NUMBERINPUT",
             "placeholder": "Trusted By Number",
             "width": "FULL"
           },
