@@ -22,6 +22,7 @@
             "title": "",
             "subTitle": "",
             "type": "SELECTINPUT",
+            "defaultValue": "Select a theme type",
             "choices": [
               {
                 "name": "block",
@@ -39,7 +40,7 @@
             "title": "",
             "subTitle": "",
             "type": "SELECTINPUT",
-            "defaultValue": "Font style",
+            "defaultValue": "Select a font style",
             "choices": [
               {
                 "name": "font style A",
