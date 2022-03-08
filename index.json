@@ -43,16 +43,28 @@
             "defaultValue": "Select a font style",
             "choices": [
               {
-                "name": "font style A",
-                "value": "font style A"
+                "name": "Sans Serif",
+                "value": "font-sans"
               },
               {
-                "name": "font style B",
-                "value": "font style B"
+                "name": "Serif",
+                "value": "font-serif"
               },
               {
-                "name": "font style C",
-                "value": "font style C"
+                "name": "Montserrat",
+                "value": "font-montserrat"
+              },
+              {
+                "name": "Inter",
+                "value": "font-inter"
+              },
+              {
+                "name": "Nunito",
+                "value": "font-nunito"
+              },
+              {
+                "name": "Raleway",
+                "value": "font-raleway"
               }
             ],
             "width": "FULL"
