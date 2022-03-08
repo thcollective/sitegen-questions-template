@@ -22,15 +22,15 @@
             "title": "",
             "subTitle": "",
             "type": "SELECTINPUT",
-            "defaultValue": "Select a theme type",
+            "defaultValue": "Select a page style",
             "choices": [
               {
                 "name": "block",
                 "value": "block"
               },
               {
-                "name": "carousel",
-                "value": "carousel"
+                "name": "dark",
+                "value": "dark"
               }
             ],
             "width": "FULL"
