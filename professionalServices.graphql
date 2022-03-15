@@ -1,0 +1,83 @@
+enum SocialProofEnum {
+  STATS
+  PAST_CLIENTS
+  TESTIMONIALS
+}
+
+type CompanyProfile {
+  name: {
+    type: String,
+    required: true, 
+    question: String
+  }
+  logo: String
+  whatWeDo: String
+  aboutYourBusiness: String
+  locations: [Address]
+  keyHeadline: String
+  subHeadline: String
+  services: [Service]
+  pastProjects: [Project]
+  team: [TeamMember]
+  companySocialProof: [SocialProof]
+}
+
+type Address {
+  street: String
+  city: String
+  state: String
+  zip: String
+  country: String
+  officeNumber: String
+  officeHours: String
+  officeHoursDays: String
+  officeHoursTime: String
+  officeHoursTimeZone: String
+  email: String
+}
+
+type Service {
+  serviceName: String
+  serviceDescription: String
+  img: String
+  features: [Feature]
+  howDoesItWork: String
+  serviceSocialProof: [SocialProof]
+}
+
+type Feature {
+  featureName: String
+  featureDescription: String
+  img: String
+  howDoesItWork: String
+}
+
+type SocialProof {
+  img: String
+  title: String
+  description: String
+  type: SocialProofEnum
+}
+
+type Project {
+  title: String
+  description: String
+  img: String
+  url: String
+}
+
+type TeamMember {
+  name: String
+  title: String
+  img: String
+  description: String
+  position: String
+  socialUrl: SocialURL
+}
+
+type SocialURL {
+  facebook: String
+  twitter: String
+  linkedin: String
+  instagram: String
+}

@@ -1,0 +1,180 @@
+{
+  "base": {
+    "faq": [],
+    "name": {
+      "value": "Ali Car Workshop"
+    },
+    "locations": [
+      {
+        "street": {},
+        "city": {},
+        "state": {},
+        "zip": {},
+        "country": {},
+        "officeNumber": {},
+        "officeHours": {},
+        "officeHoursDays": {},
+        "officeHoursTime": {},
+        "officeHoursTimeZone": {},
+        "email": {}
+      }
+    ],
+    "images": [
+      {
+        "imageUrl": "https://someurl.com.jpg",
+        "caption": {
+          "value": "Some caption",
+          "minWordCount": 10,
+          "maxWordCount": 20,
+          "required": true
+        }
+      }
+    ],
+    "logo": {},
+    "callToAction": [
+      {
+        "value": "Reach out to me for ideas",
+        "minWordCount": 30,
+        "maxWordCount": 50,
+        "required": true
+      }
+    ]
+  },
+  "home": {
+    "images": [
+      {
+        "imageUrl": "https://someurl.com.jpg",
+        "caption": {
+          "value": "Some caption",
+          "minWordCount": 10,
+          "maxWordCount": 20,
+          "required": true
+        }
+      }
+    ],
+    "aboutMe": {
+      "summary": "",
+      "minWordCount": 10,
+      "maxWordCount": 20
+    },
+    "keyHeadline": {
+      "minWordCount": 30,
+      "maxWordCount": 50,
+      "required": true,
+      "value": "The best car workshop in the world"
+    },
+    "subHeadline": {
+      "minWordCount": 30,
+      "maxWordCount": 50,
+      "required": false
+    },
+    "services": {
+      "serviceName": {
+        "minWordCount": 30,
+        "maxWordCount": 50,
+        "required": true
+      },
+      "serviceSummary": {
+        "minWordCount": 30,
+        "maxWordCount": 100,
+        "required": false
+      },
+      "img": {
+        "required": false
+      },
+      "serviceSocialProof": {
+        "required": false,
+        "proofs": [
+          {
+            "img": {},
+            "title": {},
+            "description": {},
+            "type": {}
+          }
+        ]
+      }
+    },
+    "pastProjects": [
+      {
+        "titile": "",
+        "summary": "",
+        "img": "",
+        "required": false
+      }
+    ],
+    "workHistory": {
+      "companies": [
+        {
+          "name": "",
+          "dateStarted": "",
+          "dateEnded": "",
+          "location": "",
+          "img": ""
+        }
+      ],
+      "required": false
+    }
+  },
+  "projects": {
+    "required": false,
+    "projects": [
+      {
+        "title": "",
+        "summary": "",
+        "description": "",
+        "img": ""
+      }
+    ]
+  },
+  "about": {
+    "images": [
+      {
+        "imageUrl": "https://someurl.com.jpg",
+        "caption": {
+          "value": "Some caption",
+          "minWordCount": 10,
+          "maxWordCount": 20,
+          "required": true
+        }
+      }
+    ],
+    "description": {
+      "minWordCount": 300,
+      "maxWordCount": 500,
+      "required": true
+    },
+    "keyHeadline": {
+      "minWordCount": 30,
+      "maxWordCount": 50,
+      "required": true
+    },
+    "subHeadline": {
+      "minWordCount": 30,
+      "maxWordCount": 50,
+      "required": true
+    }
+  },
+  "contact": {
+    "images": [
+      {
+        "imageUrl": "https://someurl.com.jpg",
+        "caption": {
+          "value": "Some caption",
+          "minWordCount": 10,
+          "maxWordCount": 20,
+          "required": true
+        }
+      }
+    ],
+    "keyHeadline": {
+      "minWordCount": 30,
+      "maxWordCount": 50,
+      "required": true
+    },
+    "subHeadline": {
+      "minWordCount": 30,
+      "maxWordCount": 50,
+      "required": true
+    }
+  }
+}
