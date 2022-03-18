@@ -1,23 +1,23 @@
 [
     {
-      "sectionName": "General Theme",
-      "sectionKeyName": "generalTheme",
-      "subHeading": "Memorable identifier for your business",
+      "sectionName": "Header Section",
+      "sectionKeyName": "headerSection",
+      "subHeading": "Navigate your users to the desired page/section",
       "required": true,
       "elements": [
         {
-          "key": "themeColor",
+          "key": "logoLight",
           "title": "",
           "subTitle": "",
-          "type": "BRANDING",
-          "placeholder": "",
+          "type": "TEXTINPUT",
+          "placeholder": "Place your logo image URL here.",
           "width": "FULL"
         },
         {
-          "key": "pageStyle",
+          "key": "logoDark",
           "title": "",
           "subTitle": "",
-          "type": "SELECTINPUT",
+          "type": "TEXTINPUT",
           "defaultValue": "Select a page style",
           "choices": [
             {
