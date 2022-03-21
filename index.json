@@ -1,1899 +1,711 @@
 [
-  {
-    "header": "business",
-    "key": "business",
-    "content": [
-      {
-        "sectionName": "General Theme",
-        "sectionKeyName": "generalTheme",
-        "subHeading": "Memorable identifier for your business",
+    {
+        "sectionName": "Header Section",
+        "sectionKeyName": "headerSection",
+        "subHeading": "Navigate your users to the desired page/section",
         "required": true,
-        "elements": [
-          {
-            "key": "themeColor",
-            "title": "",
-            "subTitle": "",
-            "type": "BRANDING",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "pageStyle",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "defaultValue": "Select a page style",
-            "choices": [
-              {
-                "name": "block",
-                "value": "block"
-              },
-              {
-                "name": "dark",
-                "value": "dark"
-              }
-            ],
-            "width": "FULL"
-          },
-          {
-            "key": "fontFamily",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "defaultValue": "Select a font style",
-            "choices": [
-              {
-                "name": "Sans Serif",
-                "value": "font-sans"
-              },
-              {
-                "name": "Serif",
-                "value": "font-serif"
-              },
-              {
-                "name": "Montserrat",
-                "value": "font-montserrat"
-              },
-              {
-                "name": "Inter",
-                "value": "font-inter"
-              },
-              {
-                "name": "Nunito",
-                "value": "font-nunito"
-              },
-              {
-                "name": "Raleway",
-                "value": "font-raleway"
-              }
-            ],
-            "width": "FULL"
-          }
+        "elements": 
+        [
+            {
+                "key": "logoImg",
+                "title": "Logo Image",
+                "subTitle": "",
+                "type": "IMAGE_UPLOAD",
+                "placeholder": "",
+                "width": "FULL"
+            },
+            {
+                "key": "button",
+                "text": "More info",
+                "href": "#" ,
+                "type": "TEXTINPUT",
+                "placeholder": "More Info.",
+                "width": "HALF"
+            },
+            {
+                "key": "headerNavigation",
+                "title": "",
+                "subTitle": "",
+                "type": "SELECTNUMBER",
+                "defaultValue": 0,
+                "choices": [
+                    {
+                        "name": "Home",
+                        "href": "#",
+                        "value": 0
+                    },
+                    {
+                        "name": "About",
+                        "href": "#",
+                        "value": 1
+                    },
+                    {
+                        "name": "Services",
+                        "href": "#",
+                        "value": 2
+                    },
+                    {
+                        "name": "Contact",
+                        "href": "#",
+                        "value": 3
+                    }
+                ],
+                "width": "FULL"
+            },
+            {
+                "key": "button",
+                "text": "More info",
+                "href": "#" ,
+                "type": "TEXTINPUT",
+                "placeholder": "More Info.",
+                "width": "HALF"
+            }
         ]
-      },
-      {
+    },
+    {
         "sectionName": "Hero Section",
         "sectionKeyName": "heroSection",
         "subHeading": "The main highlight of the company. This is the first section your visitors will see.",
         "required": true,
-        "elements": [
-          {
-            "key": "businessImage",
-            "title": "Business Image",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "businessTagline",
-            "title": "",
-            "subTitle": "What you have to offer?",
-            "type": "TEXTINPUT",
-            "placeholder": "Business tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "businessDescription",
-            "title": "",
-            "subTitle": "Why people should trust you?",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "businessLogo",
-            "title": "Business Logo",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "",
-            "title": "Logo Cloud",
-            "subTitle": "",
-            "type": "",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "trustedByNumber",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Trusted By Number",
-            "width": "FULL"
-          },
-          {
-            "key": "companyImage",
-            "title": "Company Logos",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              }
-            ],
-            "width": "FULL"
-          }
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Title here.",
+                "width": "HALF"
+            },
+            {
+                "key": "subHeadline",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your SubTitle here",
+                "width": "HALF"
+            },
+            {
+                "key": "description",
+                "title": "",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your SubTitle here",
+                "width": "HALF"
+            },
+            {
+                "key": "primaryButtonText",
+                "title": "Button Primary",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Text here",
+                "width": "HALF"
+            },
+            {
+                "key": "primaryButtonHref",
+                "title": "Button Primary Link",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Link here",
+                "width": "HALF"
+            }
+            
         ]
-      },
-      {
-        "sectionName": "Newsletter Section",
-        "sectionKeyName": "newsletter",
-        "subHeading": "Invite users to subscribe to your newsletter for regular updates.",
+    },
+    {
+        "sectionName": "About Section",
+        "sectionKeyName": "aboutSection",
+        "subHeading": "The main information regarding the company.",
         "required": true,
-        "elements": [
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "subheader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "subheader",
-            "width": "FULL"
-          }
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Title here.",
+                "width": "HALF"
+            },
+            {
+                "key": "description",
+                "title": "",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your SubTitle here",
+                "width": "HALF"
+            },
+            {
+                "key": "primaryButtonText",
+                "title": "Button Primary",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Text here",
+                "width": "HALF"
+            },
+            {
+                "key": "primaryButtonHref",
+                "title": "Button Primary Link",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Link here",
+                "width": "HALF"
+            }                          
         ]
-      },
-      {
-        "sectionName": "Footer Section",
-        "sectionKeyName": "footerSection",
-        "subHeading": "Include quick navigation links and copyright info at the bottom of your site.",
+    },
+    {
+        "sectionName": "Services Selection",
+        "sectionKeyName": "servicesSection",
+        "subHeading": "Choose your provided service.",
         "required": true,
-        "elements": [
-          {
-            "key": "tagline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Business tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "businessName",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Business Name",
-            "width": "FULL"
-          },
-          {
-            "key": "businessLogo",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "addNewsletter",
-            "title": "Add News Letter?",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "choices": [
-              {
-                "name": "True",
-                "value": true
-              },
-              {
-                "name": "False",
-                "value": false
-              }
-            ],
-            "width": "FULL"
-          },
-          {
-            "key": "navigation",
-            "title": "Navigation links",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              }
-            ],
-            "width": "FULL"
-          }
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            },  
+            {
+                "key": "subHeadline",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            },   
+            {
+                "key": "description",
+                "title": "Service Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Service Description here",
+                "width": "HALF"
+            },                     
+            {
+                "key": "services",
+                "title": "List of Services",
+                "subTitle": "",
+                "type": "SELECTNUMBER",
+                "defaultValue": 0,
+                "choices": 
+                [
+                    {
+                    "serviceName": "This is service name",
+                    "serviceSummary": "This is service summary",
+                    "serviceImg": "assets/images/services/galery-image-02.png",
+                    "serviceHref": "#",
+                    "value": 0
+                    },
+                    {
+                    "serviceName": "This is service name",
+                    "serviceSummary": "This is service summary",
+                    "serviceImg": "assets/images/services/galery-image-02.png",
+                    "serviceHref": "#",
+                    "value": 1
+                    },
+                    {
+                    "serviceName": "This is service name",
+                    "serviceSummary": "This is service summary",
+                    "serviceImg": "assets/images/services/galery-image-02.png",
+                    "serviceHref": "#",
+                    "value": 2
+                    },
+                    {
+                    "serviceName": "This is service name",
+                    "serviceSummary": "This is service summary",
+                    "serviceImg": "assets/images/services/galery-image-02.png",
+                    "serviceHref": "#",
+                    "value": 3
+                    },
+                    {
+                    "serviceName": "This is service name",
+                    "serviceSummary": "This is service summary",
+                    "serviceImg": "assets/images/services/galery-image-02.png",
+                    "serviceHref": "#",
+                    "value": 4
+                    }
+                ],
+                "width": "FULL"
+            }
         ]
-      },
-      {
-        "sectionName": "Pricing Section",
-        "sectionKeyName": "pricing",
-        "subHeading": "Communicate the pricing of your service/product.",
-        "required": false,
-        "elements": [
-          {
-            "key": "pricingGroup",
-            "title": "Pricing Packages",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
+    },
+    {
+        "sectionName": "CTA Section",
+        "sectionKeyName": "ctaSection",
+        "subHeading": "The CTA section of your website.",
+        "required": true,
+        "elements": [ 
               {
-                "name": "0",
-                "value": 0
+                  "key": "headline",
+                  "title": "Headline",
+                  "subTitle": "",
+                  "type": "TEXTINPUT",
+                  "placeholder": "Enter your headline here.",
+                  "width": "HALF"
               },
               {
-                "name": "1",
-                "value": 1
+                  "key": "description",
+                  "title": "",
+                  "subTitle": "",
+                  "type": "TEXTINPUT",
+                  "placeholder": "Enter your description here",
+                  "width": "HALF"
               },
               {
-                "name": "2",
-                "value": 2
+                  "key": "primaryButtonText",
+                  "title": "Button Primary",
+                  "subTitle": "",
+                  "type": "TEXTINPUT",
+                  "placeholder": "Enter your Button Text here",
+                  "width": "HALF"
               },
               {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Header Section",
-        "sectionKeyName": "headerSection",
-        "subHeading": "Define your business product. Attract pontential customers!",
-        "required": false,
-        "elements": [
-          {
-            "key": "tagline",
-            "title": "",
-            "subTitle": "What is your business motto",
-            "type": "TEXTINPUT",
-            "placeholder": "Business tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "Short Description of your business selling point!",
-            "type": "TEXTINPUT",
-            "placeholder": "Business Header",
-            "width": "FULL"
-          },
-          {
-            "key": "description",
-            "title": "",
-            "subTitle": "Describe your business. What does your company do?",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "img",
-            "title": "",
-            "subTitle": "Upload your company photo here.",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "title": "",
-            "subTitle": "Direct pontential customers to designated website link! (Company profile, Product links, Team, etc)",
-            "width": "FULL"
-          },
-          {
-            "key": "supportLinks",
-            "title": "Support Links",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Logo Section",
-        "sectionKeyName": "logoSection",
-        "subHeading": "show partnership, sponsors and clients",
-        "required": false,
-        "elements": [
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "primaryButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Primary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "secondaryButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Secondary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "companies",
-            "title": "Companies",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
+                  "key": "primaryButtonHref",
+                  "title": "Button Primary Link",
+                  "subTitle": "",
+                  "type": "TEXTINPUT",
+                  "placeholder": "Enter your Button Link here",
+                  "width": "HALF"
+              }                          
+          ]
+    },
+    {
         "sectionName": "Team Section",
         "sectionKeyName": "teamSection",
-        "subHeading": "Core team members",
-        "required": false,
-        "elements": [
-          {
-            "key": "teamMembers",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              },
-              {
-                "name": "7",
-                "value": 7
-              },
-              {
-                "name": "8",
-                "value": 8
-              }
-            ],
-            "width": "FULL"
-          }
+        "subHeading": "Add your team.",
+        "required": true,
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            },  
+            {
+                "key": "subHeadline",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            },   
+            {
+                "key": "description",
+                "title": "Service Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Service Description here",
+                "width": "HALF"
+            },                     
+            {
+                "key": "teamMembers",
+                "title": "List of Team Members",
+                "subTitle": "",
+                "type": "TEXTINPUT"
+            }
         ]
-      },
-      {
-        "sectionName": "Testimonial Section",
-        "sectionKeyName": "testinomial",
-        "subHeading": "Show client feedbacks",
-        "required": false,
-        "elements": [
-          {
-            "key": "testinomialGroup",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              }
-            ],
-            "width": "FULL"
-          }
+    },  
+    {
+        "sectionName": "Pricing Section",
+        "sectionKeyName": "pricingSection",
+        "subHeading": "Add your pricing Plans.",
+        "required": true,
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            },  
+            {
+                "key": "subHeadline",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            },                        
+            {
+                "key": "teamMembers",
+                "title": "Enter Pricing Plans",
+                "subTitle": "",
+                "type": "TEXTINPUT"
+            }
         ]
-      },
-      {
-        "sectionName": "Stats Section",
-        "sectionKeyName": "stats",
-        "subHeading": "Showcase important numbers of your business here.",
-        "required": false,
-        "elements": [
-          {
-            "key": "tagline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "subheader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "subheader",
-            "width": "FULL"
-          },
-          {
-            "key": "img",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "Upload an image",
-            "width": "FULL"
-          },
-          {
-            "key": "statsList",
-            "title": "Stats",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Blog Section",
-        "sectionKeyName": "blogSection",
-        "subHeading": "Direct users to your blog posts for additional resources, information, and success stories.",
-        "required": false,
-        "elements": [
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "description",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "posts",
-            "title": "Blog Post",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "CTA Section",
-        "sectionKeyName": "CTASection",
-        "subHeading": "Prompt your visitors to take the next step and amplify your business conversion.",
-        "required": false,
-        "elements": [
-          {
-            "key": "CTACompanyName",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Company Name",
-            "width": "FULL"
-          },
-          {
-            "key": "CTAHeadline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Headline",
-            "width": "FULL"
-          },
-          {
-            "key": "CTASubheadline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Subheadline",
-            "width": "FULL"
-          },
-          {
-            "key": "CTACallToActionButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Primary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "CTACallToSecondaryButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Secondary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "CTAImage",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "Upload an image",
-            "width": "FULL"
-          }
-        ]
-      },
-      {
+    },
+    {
         "sectionName": "FAQ Section",
-        "sectionKeyName": "FAQSection",
-        "subHeading": "frequetly asked questions to display",
-        "required": false,
-        "elements": [
-          {
-            "key": "FAQHeader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "FAQSubheader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Subheader",
-            "width": "FULL"
-          },
-          {
-            "key": "faqs",
-            "title": "Frequently Asked Questions",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
+        "sectionKeyName": "faqSection",
+        "subHeading": "Choose your FAQs to display.",
+        "required": true,
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            },   
+            {
+                "key": "description",
+                "title": "Service Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Service Description here",
+                "width": "HALF"
+            },  
+            {
+                "key": "primaryButtonText",
+                "title": "Button Primary",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Text here",
+                "width": "HALF"
+            },
+            {
+                "key": "primaryButtonHref",
+                "title": "Button Primary Link",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Link here",
+                "width": "HALF"
+            },                   
+            {
+                "key": "faqs",
+                "title": "List of FAQs",
+                "subTitle": "",
+                "type": "SELECTNUMBER",
+                "defaultValue": 0,
+                "choices": 
+                [
+                    {
+                        "key": "question1",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer"
+                    },
+                    {
+                        "key": "question2",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer"
+                    },
+                    {
+                        "key": "question3",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer"
+                    },
+                    {
+                        "key": "question4",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer"
+                    },
+                    {
+                        "key": "question5",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer"
+                    }
+                ],
+                "width": "FULL"
+            }
         ]
-      },
-      {
-        "sectionName": "Feature Section",
-        "sectionKeyName": "featureSection",
-        "subHeading": "Show your product features",
-        "required": false,
-        "elements": [
-          {
-            "key": "businessName",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Business Name",
-            "width": "FULL"
-          },
-          {
-            "key": "featureGroup",
-            "title": "Features",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              },
-              {
-                "name": "7",
-                "value": 7
-              },
-              {
-                "name": "8",
-                "value": 8
-              }
-            ],
-            "width": "FULL"
-          }
+    },
+    {
+        "sectionName": "Testimonial Section",
+        "sectionKeyName": "testimonialSection",
+        "subHeading": "Choose your Testimonials to display.",
+        "required": true,
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            }, 
+            {
+                "key": "subHeadline",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            },    
+            {
+                "key": "description",
+                "title": "Service Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Service Description here",
+                "width": "HALF"
+            },                    
+            {
+                "key": "testimonials",
+                "title": "List of Testimonials",
+                "subTitle": "",
+                "type": "SELECTNUMBER",
+                "defaultValue": 0,
+                "choices": 
+                [
+                    {
+                        "key": "question1",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Service Description here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "question2",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Service Description here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "question3",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Service Description here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "question4",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Service Description here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "question5",
+                        "question": "This is faq question",
+                        "answer": "This is faq answer",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Service Description here",
+                        "width": "HALF"
+                    }
+                ],
+                "width": "FULL"
+            }
         ]
-      },
-      {
+    },  
+    {
         "sectionName": "Contact Section",
         "sectionKeyName": "contactSection",
-        "subHeading": "Define your business & marketing message",
-        "required": false,
-        "elements": [
-          {
-            "key": "sectionTitle",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Title",
-            "width": "FULL"
-          },
-          {
-            "key": "sectionDescription",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "sectionImage",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "Upload an image",
-            "width": "FULL"
-          },
-          {
-            "key": "showContactUsForm",
-            "title": "Show Contact Us Form?",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "choices": [
-              {
-                "name": "True",
-                "value": true
-              },
-              {
-                "name": "False",
-                "value": false
-              }
-            ],
-            "width": "FULL"
-          },
-          {
-            "key": "contactInformation",
-            "title": "Contact Information",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Address",
-        "sectionKeyName": "contactSection",
-        "subHeading": "List down your headquaters and branches",
-        "required": false,
-        "elements": [
-          {
-            "key": "addresses",
-            "title": "Addresses",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "header": "product",
-    "key": "product",
-    "content": [
-      {
-        "sectionName": "General Theme",
-        "sectionKeyName": "generalTheme",
-        "subHeading": "Memorable identifier for your business",
+        "subHeading": "Add your Contacts.",
         "required": true,
-        "elements": [
-          {
-            "key": "themeColor",
-            "title": "",
-            "subTitle": "",
-            "type": "BRANDING",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "pageStyle",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "choices": [
-              {
-                "name": "block",
-                "value": "block"
-              },
-              {
-                "name": "carousel",
-                "value": "carousel"
-              }
-            ],
-            "width": "FULL"
-          },
-          {
-            "key": "fontFamily",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "defaultValue": "Font style",
-            "choices": [
-              {
-                "name": "font style A",
-                "value": "font style A"
-              },
-              {
-                "name": "font style B",
-                "value": "font style B"
-              },
-              {
-                "name": "font style C",
-                "value": "font style C"
-              }
-            ],
-            "width": "FULL"
-          }
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            },  
+            {
+                "key": "subHeadline",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            },   
+            {
+                "key": "description",
+                "title": "Service Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Service Description here",
+                "width": "HALF"
+            },   
+            {
+                "key": "contactNumber",
+                "title": "Contact Number",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Contact Number here",
+                "width": "HALF"
+            },   
+            {
+                "key": "emailAddress",
+                "title": "Email Address",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Email Address here",
+                "width": "HALF"
+            },   
+            {
+                "key": "location",
+                "title": "Location Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Location Description here",
+                "width": "HALF"
+            }
         ]
-      },
-      {
-        "sectionName": "Hero Section",
-        "sectionKeyName": "heroSection",
-        "subHeading": "The main highlight of the company. This is the first section your visitors will see.",
-        "required": true,
-        "elements": [
-          {
-            "key": "businessImage",
-            "title": "Business Image",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "businessTagline",
-            "title": "",
-            "subTitle": "What you have to offer?",
-            "type": "TEXTINPUT",
-            "placeholder": "Business tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "businessDescription",
-            "title": "",
-            "subTitle": "Why people should trust you?",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "businessLogo",
-            "title": "Business Logo",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "",
-            "title": "Logo Cloud",
-            "subTitle": "",
-            "type": "",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "trustedByNumber",
-            "title": "",
-            "subTitle": "",
-            "type": "NUMBERINPUT",
-            "placeholder": "Trusted By Number",
-            "width": "FULL"
-          },
-          {
-            "key": "companyImage",
-            "title": "Company Logos",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Newsletter Section",
-        "sectionKeyName": "newsletter",
-        "subHeading": "Invite users to subscribe to your newsletter for regular updates.",
-        "required": true,
-        "elements": [
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "subheader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "subheader",
-            "width": "FULL"
-          }
-        ]
-      },
-      {
+    }, 
+    {
         "sectionName": "Footer Section",
         "sectionKeyName": "footerSection",
-        "subHeading": "Include quick navigation links and copyright info at the bottom of your site.",
+        "subHeading": "Customize your footer.",
         "required": true,
-        "elements": [
-          {
-            "key": "tagline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Business tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "businessName",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Business Name",
-            "width": "FULL"
-          },
-          {
-            "key": "businessLogo",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "key": "addNewsletter",
-            "title": "Add News Letter?",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "choices": [
-              {
-                "name": "True",
-                "value": true
-              },
-              {
-                "name": "False",
-                "value": false
-              }
-            ],
-            "width": "FULL"
-          },
-          {
-            "key": "navigation",
-            "title": "Navigation links",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              }
-            ],
-            "width": "FULL"
-          }
+        "elements": 
+        [ 
+            {
+                "key": "mainHeadline",
+                "title": "Main Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Headline",
+                "width": "HALF"
+            }, 
+            {
+                "key": "subHeading1",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            },   
+            {
+                "key": "subHeading2",
+                "title": "Sub Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Sub Headline",
+                "width": "HALF"
+            }, 
+            {
+                "key": "logoImg",
+                "title": "Logo Image",
+                "subTitle": "",
+                "type": "IMAGE_UPLOAD",
+                "placeholder": "",
+                "width": "FULL"
+            },
+            {
+                "key": "description",
+                "title": "Service Description",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Service Description here",
+                "width": "HALF"
+            },                    
+            {
+                "key": "footerNavigation",
+                "title": "Footer Navigations",
+                "subTitle": "",
+                "type": "SELECTNUMBER",
+                "defaultValue": 0
+            }
         ]
-      },
-      {
-        "sectionName": "Pricing Section",
-        "sectionKeyName": "pricing",
-        "subHeading": "Communicate the pricing of your service/product.",
-        "required": false,
-        "elements": [
-          {
-            "key": "pricingGroup",
-            "title": "Pricing Packages",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
+    }, 
+    {
+        "sectionName": "Socials Section",
+        "sectionKeyName": "socialProof",
+        "subHeading": "Company Socials Info.",
+        "required": true,
+        "elements": 
+        [ 
+            {
+                "key": "facebook",
+                "title": "Facebook",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your facebook Link here.",
+                "width": "HALF"
+            },
+            {
+                "key": "twitter",
+                "title": "Twitter",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your twitter Link here",
+                "width": "HALF"
+            },
+            {
+                "key": "instagram",
+                "title": "Instagram",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your instagram Link here",
+                "width": "HALF"
+            },
+            {
+                "key": "linkedin",
+                "title": "Linkedin",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your linkedin Link here",
+                "width": "HALF"
+            }                          
         ]
-      },
-      {
-        "sectionName": "Header Section",
-        "sectionKeyName": "headerSection",
-        "subHeading": "Define your business product. Attract pontential customers!",
-        "required": false,
-        "elements": [
-          {
-            "key": "tagline",
-            "title": "",
-            "subTitle": "What is your business motto",
-            "type": "TEXTINPUT",
-            "placeholder": "Business tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "Short Description of your business selling point!",
-            "type": "TEXTINPUT",
-            "placeholder": "Business Header",
-            "width": "FULL"
-          },
-          {
-            "key": "description",
-            "title": "",
-            "subTitle": "Describe your business. What does your company do?",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "img",
-            "title": "",
-            "subTitle": "Upload your company photo here.",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "",
-            "width": "FULL"
-          },
-          {
-            "title": "",
-            "subTitle": "Direct pontential customers to designated website link! (Company profile, Product links, Team, etc)",
-            "width": "FULL"
-          },
-          {
-            "key": "supportLinks",
-            "title": "Support Links",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
+    },      
+    {
+        "sectionName": "Copyright Section",
+        "sectionKeyName": "copyrightSection",
+        "subHeading": "Copyright Info.",
+        "required": true,
+        "elements": 
+        [ 
+            {
+                "key": "copyrightNavigation",
+                "title": "Copyright Navigation",
+                "subTitle": "",
+                "type": "SELECTNUMBER",
+                "defaultValue": 0,
+                "choices": 
+                [
+                    {
+                        "key": "t&c",
+                        "title": "Terms And Condition",
+                        "href": "#",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Terms And Condition here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "p&c",
+                        "title": "Privacy Policy",
+                        "href": "#",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Privacy Policy here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "contactUs",
+                        "title": "Contact Us",
+                        "href": "#",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Contact Us here",
+                        "width": "HALF"
+                    },
+                    {
+                        "key": "copyrightText",
+                        "title": "Company",
+                        "subTitle": "",
+                        "type": "TEXTINPUT",
+                        "placeholder": "Enter your Company Copyright text here",
+                        "width": "HALF"
+                    } 
+                ]
+            }                          
         ]
-      },
-      {
-        "sectionName": "Logo Section",
-        "sectionKeyName": "logoSection",
-        "subHeading": "show partnership, sponsors and clients",
-        "required": false,
-        "elements": [
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "primaryButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Primary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "secondaryButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Secondary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "companies",
-            "title": "Companies",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Team Section",
-        "sectionKeyName": "teamSection",
-        "subHeading": "Core team members",
-        "required": false,
-        "elements": [
-          {
-            "key": "teamMembers",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              },
-              {
-                "name": "7",
-                "value": 7
-              },
-              {
-                "name": "8",
-                "value": 8
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Testimonial Section",
-        "sectionKeyName": "testinomial",
-        "subHeading": "Show client feedbacks",
-        "required": false,
-        "elements": [
-          {
-            "key": "testinomialGroup",
-            "title": "",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Stats Section",
-        "sectionKeyName": "stats",
-        "subHeading": "Showcase important numbers of your business here.",
-        "required": false,
-        "elements": [
-          {
-            "key": "tagline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "tagline",
-            "width": "FULL"
-          },
-          {
-            "key": "subheader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "subheader",
-            "width": "FULL"
-          },
-          {
-            "key": "img",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "Upload an image",
-            "width": "FULL"
-          },
-          {
-            "key": "statsList",
-            "title": "Stats",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Blog Section",
-        "sectionKeyName": "blogSection",
-        "subHeading": "Direct users to your blog posts for additional resources, information, and success stories.",
-        "required": false,
-        "elements": [
-          {
-            "key": "header",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "description",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "posts",
-            "title": "Blog Post",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "CTA Section",
-        "sectionKeyName": "CTASection",
-        "subHeading": "Prompt your visitors to take the next step and amplify your business conversion.",
-        "required": false,
-        "elements": [
-          {
-            "key": "CTACompanyName",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Company Name",
-            "width": "FULL"
-          },
-          {
-            "key": "CTAHeadline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Headline",
-            "width": "FULL"
-          },
-          {
-            "key": "CTASubheadline",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Subheadline",
-            "width": "FULL"
-          },
-          {
-            "key": "CTACallToActionButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Primary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "CTACallToSecondaryButton",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Secondary Call-to-action Button",
-            "width": "HALF"
-          },
-          {
-            "key": "CTAImage",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "Upload an image",
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "FAQ Section",
-        "sectionKeyName": "FAQSection",
-        "subHeading": "frequetly asked questions to display",
-        "required": false,
-        "elements": [
-          {
-            "key": "FAQHeader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Header",
-            "width": "FULL"
-          },
-          {
-            "key": "FAQSubheader",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Subheader",
-            "width": "FULL"
-          },
-          {
-            "key": "faqs",
-            "title": "Frequently Asked Questions",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Feature Section",
-        "sectionKeyName": "featureSection",
-        "subHeading": "Show your product features",
-        "required": false,
-        "elements": [
-          {
-            "key": "businessName",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Business Name",
-            "width": "FULL"
-          },
-          {
-            "key": "featureGroup",
-            "title": "Features",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              },
-              {
-                "name": "5",
-                "value": 5
-              },
-              {
-                "name": "6",
-                "value": 6
-              },
-              {
-                "name": "7",
-                "value": 7
-              },
-              {
-                "name": "8",
-                "value": 8
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Contact Section",
-        "sectionKeyName": "contactSection",
-        "subHeading": "Define your business & marketing message",
-        "required": false,
-        "elements": [
-          {
-            "key": "sectionTitle",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Title",
-            "width": "FULL"
-          },
-          {
-            "key": "sectionDescription",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTAREA",
-            "placeholder": "Description",
-            "width": "FULL"
-          },
-          {
-            "key": "sectionImage",
-            "title": "",
-            "subTitle": "",
-            "type": "IMAGE_UPLOAD",
-            "placeholder": "Upload an image",
-            "width": "FULL"
-          },
-          {
-            "key": "showContactUsForm",
-            "title": "Show Contact Us Form?",
-            "subTitle": "",
-            "type": "SELECTINPUT",
-            "choices": [
-              {
-                "name": "True",
-                "value": true
-              },
-              {
-                "name": "False",
-                "value": false
-              }
-            ],
-            "width": "FULL"
-          },
-          {
-            "key": "contactInformation",
-            "title": "Contact Information",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      },
-      {
-        "sectionName": "Address",
-        "sectionKeyName": "contactSection",
-        "subHeading": "List down your headquaters and branches",
-        "required": false,
-        "elements": [
-          {
-            "key": "addresses",
-            "title": "Addresses",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-              {
-                "name": "0",
-                "value": 0
-              },
-              {
-                "name": "1",
-                "value": 1
-              },
-              {
-                "name": "2",
-                "value": 2
-              },
-              {
-                "name": "3",
-                "value": 3
-              },
-              {
-                "name": "4",
-                "value": 4
-              }
-            ],
-            "width": "FULL"
-          }
-        ]
-      }
-    ]
-  }
+    }          
 ]
