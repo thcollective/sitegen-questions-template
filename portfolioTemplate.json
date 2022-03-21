@@ -81,7 +81,7 @@
           "subTitle": "",
           "type": "TEXTINPUT",
           "placeholder": "Enter your name here.",
-          "width": "half"
+          "width": "HALF"
         },
         {
           "key": "contactMeHref",
@@ -89,7 +89,7 @@
           "subTitle": "",
           "type": "TEXTINPUT",
           "placeholder": "Enter your redirect link in button",
-          "width": "half"
+          "width": "HALF"
         }
       ]
     },
