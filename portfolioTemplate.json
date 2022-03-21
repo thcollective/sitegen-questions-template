@@ -150,10 +150,88 @@
       ]
     },
     {
+      "sectionName": "Project Section",
+      "sectionKeyName": "projectSection",
+      "subHeading": "Showcase your awesome projects",
+      "required": true,
+      "elements": [
+        {
+            "key": "listOfProjects",
+            "title": "List of projects",
+            "subTitle": "",
+            "type": "SELECTNUMBER",
+            "defaultValue": 0,
+            "choices": [
+                {
+                "name": "0",
+                "value": 0
+                },
+                {
+                "name": "1",
+                "value": 1
+                },
+                {
+                "name": "2",
+                "value": 2
+                },
+                {
+                "name": "3",
+                "value": 3
+                },
+                {
+                "name": "4",
+                "value": 4
+                }
+            ],
+            "width": "FULL"
+        }
+      ]
+    },
+    {
+      "sectionName": "Copyright Section",
+      "sectionKeyName": "copyrightSection",
+      "subHeading": "Showcase important numbers of your business here.",
+      "required": true,
+      "elements": [
+        {
+            "key": "privacyPolicyUrl",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Privacy Policy Link",
+            "width": "FULL"
+        },
+        {
+            "key": "termsUrl",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Terms and Condition Link",
+            "width": "FULL"
+        },
+        {
+            "key": "contactUsUrl",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Contact Us Link",
+            "width": "FULL"
+        },
+        {
+            "key": "copyrightText",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Copyright Text",
+            "width": "FULL"
+        }
+      ]
+    },
+    {
       "sectionName": "Brand Section",
       "sectionKeyName": "brandSection",
       "subHeading": "Show clients that who have worked with you",
-      "required": true,
+      "required": false,
       "elements": [
         {
             "key": "logos",
@@ -195,44 +273,7 @@
           }
       ]
     },
-    {
-      "sectionName": "Project Section",
-      "sectionKeyName": "projectSection",
-      "subHeading": "Showcase your awesome projects",
-      "required": false,
-      "elements": [
-        {
-            "key": "listOfProjects",
-            "title": "List of projects",
-            "subTitle": "",
-            "type": "SELECTNUMBER",
-            "defaultValue": 0,
-            "choices": [
-                {
-                "name": "0",
-                "value": 0
-                },
-                {
-                "name": "1",
-                "value": 1
-                },
-                {
-                "name": "2",
-                "value": 2
-                },
-                {
-                "name": "3",
-                "value": 3
-                },
-                {
-                "name": "4",
-                "value": 4
-                }
-            ],
-            "width": "FULL"
-        }
-      ]
-    },
+    
     {
       "sectionName": "About Section",
       "sectionKeyName": "aboutSection",
@@ -507,46 +548,6 @@
             ],
             "width": "FULL"
           }
-      ]
-    },
-    {
-      "sectionName": "Copyright Section",
-      "sectionKeyName": "copyrightSection",
-      "subHeading": "Showcase important numbers of your business here.",
-      "required": false,
-      "elements": [
-        {
-            "key": "privacyPolicyUrl",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Privacy Policy Link",
-            "width": "FULL"
-        },
-        {
-            "key": "termsUrl",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Terms and Condition Link",
-            "width": "FULL"
-        },
-        {
-            "key": "contactUsUrl",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Contact Us Link",
-            "width": "FULL"
-        },
-        {
-            "key": "copyrightText",
-            "title": "",
-            "subTitle": "",
-            "type": "TEXTINPUT",
-            "placeholder": "Copyright Text",
-            "width": "FULL"
-        }
       ]
     }
   ]
