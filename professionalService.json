@@ -765,48 +765,38 @@
         "required": true,
         "elements": 
         [ 
-            {
-                "key": "copyrightNavigation",
-                "title": "Copyright Navigation",
-                "subTitle": "",
-                "type": "SELECTNUMBER",
-                "defaultValue": 0,
-                "choices": 
-                [
-                    {
-                        "key": "t&c",
-                        "title": "Terms And Condition",
-                        "href": "#",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Terms And Condition here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "p&c",
-                        "title": "Privacy Policy",
-                        "href": "#",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Privacy Policy here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "contactUs",
-                        "title": "Contact Us",
-                        "href": "#",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Contact Us here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "copyrightText",
-                        "title": "Company",
-                        "subTitle": "",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Company Copyright text here",
-                        "width": "HALF"
-                    } 
-                ]
-            }                          
+          {
+            "key": "privacyPolicyUrl",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Privacy Policy Link",
+            "width": "FULL"
+          },
+          {
+            "key": "termsUrl",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Terms and Condition Link",
+            "width": "FULL"
+          },
+          {
+            "key": "contactUsUrl",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Contact Us Link",
+            "width": "FULL"
+          },
+          {
+            "key": "copyrightText",
+            "title": "",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Copyright Text",
+            "width": "FULL"
+          }                          
         ]
     }          
 ]
