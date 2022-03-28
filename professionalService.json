@@ -7,58 +7,74 @@
         "elements": 
         [
             {
-                "key": "logoImg",
-                "title": "Logo Image",
-                "subTitle": "",
-                "type": "IMAGE_UPLOAD",
-                "placeholder": "",
-                "width": "FULL"
+              "key": "logoLight",
+              "title": "",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Place your logo image URL for light mode here.",
+              "width": "HALF"
             },
             {
-                "key": "button",
-                "text": "More info",
-                "href": "#" ,
-                "type": "TEXTINPUT",
-                "placeholder": "More Info.",
-                "width": "HALF"
-            },
-            {
-                "key": "headerNavigation",
+                "key": "logoDark",
                 "title": "",
                 "subTitle": "",
-                "type": "SELECTNUMBER",
-                "defaultValue": 0,
-                "choices": [
-                    {
-                        "name": "Home",
-                        "href": "#",
-                        "value": 0
-                    },
-                    {
-                        "name": "About",
-                        "href": "#",
-                        "value": 1
-                    },
-                    {
-                        "name": "Services",
-                        "href": "#",
-                        "value": 2
-                    },
-                    {
-                        "name": "Contact",
-                        "href": "#",
-                        "value": 3
-                    }
-                ],
-                "width": "FULL"
+                "type": "TEXTINPUT",
+                "placeholder": "Place your logo image URL for dark mode here.",
+                "width": "HALF"
             },
             {
-                "key": "button",
+                "key": "buttonText",
                 "text": "More info",
                 "href": "#" ,
                 "type": "TEXTINPUT",
                 "placeholder": "More Info.",
                 "width": "HALF"
+            },
+            {
+                "key": "buttonHref",
+                "text": "More info",
+                "href": "#" ,
+                "type": "TEXTINPUT",
+                "placeholder": "More Info.",
+                "width": "HALF"
+            },
+            {
+              "key": "headerNavigation",
+              "title": "",
+              "subTitle": "",
+              "type": "SELECTNUMBER",
+              "defaultValue": 0,
+              "choices": [
+                  {
+                      "name": "0",
+                      "value": 0
+                  },
+                  {
+                      "name": "1",
+                      "value": 1
+                  },
+                  {
+                      "name": "2",
+                      "value": 2
+                  },
+                  {
+                      "name": "3",
+                      "value": 3
+                  },
+                  {
+                      "name": "4",
+                      "value": 4
+                  },
+                  {
+                      "name": "5",
+                      "value": 5
+                  },
+                  {
+                      "name": "6",
+                      "value": 6
+                  }
+              ],
+              "width": "FULL"
             }
         ]
     },
@@ -71,7 +87,7 @@
         [ 
             {
                 "key": "mainHeadline",
-                "title": "Main Headline",
+                "title": "",
                 "subTitle": "",
                 "type": "TEXTINPUT",
                 "placeholder": "Enter your Title here.",
@@ -79,7 +95,7 @@
             },
             {
                 "key": "subHeadline",
-                "title": "Sub Headline",
+                "title": "",
                 "subTitle": "",
                 "type": "TEXTINPUT",
                 "placeholder": "Enter your SubTitle here",
@@ -89,9 +105,9 @@
                 "key": "description",
                 "title": "",
                 "subTitle": "",
-                "type": "TEXTINPUT",
+                "type": "TEXTAREA",
                 "placeholder": "Enter your SubTitle here",
-                "width": "HALF"
+                "width": "FULL"
             },
             {
                 "key": "primaryButtonText",
@@ -108,8 +124,23 @@
                 "type": "TEXTINPUT",
                 "placeholder": "Enter your Button Link here",
                 "width": "HALF"
+            },
+            {
+              "key": "secondaryButtonText",
+              "title": "Button Secondary",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Button Text here",
+              "width": "HALF"
+            },
+            {
+                "key": "secondaryButtonHref",
+                "title": "Button Secondary Link",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Link here",
+                "width": "HALF"
             }
-            
         ]
     },
     {
@@ -131,9 +162,9 @@
                 "key": "description",
                 "title": "",
                 "subTitle": "",
-                "type": "TEXTINPUT",
+                "type": "TEXTAREA",
                 "placeholder": "Enter your SubTitle here",
-                "width": "HALF"
+                "width": "FULL"
             },
             {
                 "key": "primaryButtonText",
@@ -150,7 +181,15 @@
                 "type": "TEXTINPUT",
                 "placeholder": "Enter your Button Link here",
                 "width": "HALF"
-            }                          
+            },
+            {
+              "key": "img",
+              "title": "Background Image",
+              "subTitle": "",
+              "type": "IMAGE_UPLOAD",
+              "placeholder": "",
+              "width": "FULL"
+            }
         ]
     },
     {
@@ -162,25 +201,25 @@
         [ 
             {
                 "key": "mainHeadline",
-                "title": "Main Headline",
+                "title": "",
                 "subTitle": "",
                 "type": "TEXTINPUT",
                 "placeholder": "Enter your Headline",
                 "width": "HALF"
-            },  
+            },
             {
-                "key": "subHeadline",
-                "title": "Sub Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Sub Headline",
-                "width": "HALF"
+              "key": "subHeadline",
+              "title": "",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your SubTitle here",
+              "width": "HALF"
             },   
             {
                 "key": "description",
-                "title": "Service Description",
+                "title": "",
                 "subTitle": "",
-                "type": "TEXTINPUT",
+                "type": "TEXTAREA",
                 "placeholder": "Enter your Service Description here",
                 "width": "HALF"
             },                     
@@ -192,41 +231,34 @@
                 "defaultValue": 0,
                 "choices": 
                 [
-                    {
-                    "serviceName": "This is service name",
-                    "serviceSummary": "This is service summary",
-                    "serviceImg": "assets/images/services/galery-image-02.png",
-                    "serviceHref": "#",
+                  {
+                    "name": "0",
                     "value": 0
-                    },
-                    {
-                    "serviceName": "This is service name",
-                    "serviceSummary": "This is service summary",
-                    "serviceImg": "assets/images/services/galery-image-02.png",
-                    "serviceHref": "#",
-                    "value": 1
-                    },
-                    {
-                    "serviceName": "This is service name",
-                    "serviceSummary": "This is service summary",
-                    "serviceImg": "assets/images/services/galery-image-02.png",
-                    "serviceHref": "#",
-                    "value": 2
-                    },
-                    {
-                    "serviceName": "This is service name",
-                    "serviceSummary": "This is service summary",
-                    "serviceImg": "assets/images/services/galery-image-02.png",
-                    "serviceHref": "#",
-                    "value": 3
-                    },
-                    {
-                    "serviceName": "This is service name",
-                    "serviceSummary": "This is service summary",
-                    "serviceImg": "assets/images/services/galery-image-02.png",
-                    "serviceHref": "#",
-                    "value": 4
-                    }
+                  },
+                  {
+                      "name": "1",
+                      "value": 1
+                  },
+                  {
+                      "name": "2",
+                      "value": 2
+                  },
+                  {
+                      "name": "3",
+                      "value": 3
+                  },
+                  {
+                      "name": "4",
+                      "value": 4
+                  },
+                  {
+                      "name": "5",
+                      "value": 5
+                  },
+                  {
+                      "name": "6",
+                      "value": 6
+                  }
                 ],
                 "width": "FULL"
             }
@@ -239,36 +271,36 @@
         "required": true,
         "elements": [ 
               {
-                  "key": "headline",
-                  "title": "Headline",
-                  "subTitle": "",
-                  "type": "TEXTINPUT",
-                  "placeholder": "Enter your headline here.",
-                  "width": "HALF"
+                "key": "headline",
+                "title": "Headline",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your headline here.",
+                "width": "HALF"
               },
               {
-                  "key": "description",
-                  "title": "",
-                  "subTitle": "",
-                  "type": "TEXTINPUT",
-                  "placeholder": "Enter your description here",
-                  "width": "HALF"
+                "key": "description",
+                "title": "",
+                "subTitle": "",
+                "type": "TEXTAREA",
+                "placeholder": "Enter your description here",
+                "width": "FULL"
               },
               {
-                  "key": "primaryButtonText",
-                  "title": "Button Primary",
-                  "subTitle": "",
-                  "type": "TEXTINPUT",
-                  "placeholder": "Enter your Button Text here",
-                  "width": "HALF"
+                "key": "primaryButtonText",
+                "title": "Button Primary",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Text here",
+                "width": "HALF"
               },
               {
-                  "key": "primaryButtonHref",
-                  "title": "Button Primary Link",
-                  "subTitle": "",
-                  "type": "TEXTINPUT",
-                  "placeholder": "Enter your Button Link here",
-                  "width": "HALF"
+                "key": "primaryButtonHref",
+                "title": "Button Primary Link",
+                "subTitle": "",
+                "type": "TEXTINPUT",
+                "placeholder": "Enter your Button Link here",
+                "width": "HALF"
               }                          
           ]
     },
@@ -279,36 +311,68 @@
         "required": true,
         "elements": 
         [ 
-            {
-                "key": "mainHeadline",
-                "title": "Main Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Headline",
-                "width": "HALF"
-            },  
-            {
-                "key": "subHeadline",
-                "title": "Sub Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Sub Headline",
-                "width": "HALF"
-            },   
-            {
-                "key": "description",
-                "title": "Service Description",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Service Description here",
-                "width": "HALF"
-            },                     
-            {
-                "key": "teamMembers",
-                "title": "List of Team Members",
-                "subTitle": "",
-                "type": "TEXTINPUT"
-            }
+          {
+            "key": "mainHeadline",
+            "title": "Main Headline",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Enter your Headline",
+            "width": "FULL"
+          },  
+          {
+            "key": "subHeadline",
+            "title": "Sub Headline",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Enter your Sub Headline",
+            "width": "FULL"
+          },   
+          {
+            "key": "description",
+            "title": "Service Description",
+            "subTitle": "",
+            "type": "TEXTAREA",
+            "placeholder": "Enter your Service Description here",
+            "width": "HALF"
+          },                     
+          {
+            "key": "teamMembers",
+            "title": "List of Team Members",
+            "subTitle": "",
+            "type": "SELECTNUMBER",
+            "defaultValue": 0,
+            "choices": [
+                {
+                    "name": "0",
+                    "value": 0
+                },
+                {
+                    "name": "1",
+                    "value": 1
+                },
+                {
+                    "name": "2",
+                    "value": 2
+                },
+                {
+                    "name": "3",
+                    "value": 3
+                },
+                {
+                    "name": "4",
+                    "value": 4
+                },
+                {
+                    "name": "5",
+                    "value": 5
+                },
+                {
+                    "name": "6",
+                    "value": 6
+                }
+            ],
+            "width": "FULL"
+          }
         ]
     },  
     {
@@ -319,26 +383,58 @@
         "elements": 
         [ 
             {
-                "key": "mainHeadline",
-                "title": "Main Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Headline",
-                "width": "HALF"
+              "key": "mainHeadline",
+              "title": "Main Headline",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Headline",
+              "width": "HALF"
             },  
             {
-                "key": "subHeadline",
-                "title": "Sub Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Sub Headline",
-                "width": "HALF"
+              "key": "subHeadline",
+              "title": "Sub Headline",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Sub Headline",
+              "width": "HALF"
             },                        
             {
-                "key": "teamMembers",
-                "title": "Enter Pricing Plans",
-                "subTitle": "",
-                "type": "TEXTINPUT"
+              "key": "pricingPackages",
+              "title": "Enter Pricing Plans",
+              "subTitle": "",
+              "type": "SELECTNUMBER",
+              "defaultValue": 0,
+              "choices": [
+                  {
+                      "name": "0",
+                      "value": 0
+                  },
+                  {
+                      "name": "1",
+                      "value": 1
+                  },
+                  {
+                      "name": "2",
+                      "value": 2
+                  },
+                  {
+                      "name": "3",
+                      "value": 3
+                  },
+                  {
+                      "name": "4",
+                      "value": 4
+                  },
+                  {
+                      "name": "5",
+                      "value": 5
+                  },
+                  {
+                      "name": "6",
+                      "value": 6
+                  }
+              ],
+              "width": "FULL"
             }
         ]
     },
@@ -361,9 +457,9 @@
                 "key": "description",
                 "title": "Service Description",
                 "subTitle": "",
-                "type": "TEXTINPUT",
+                "type": "TEXTAREA",
                 "placeholder": "Enter your Service Description here",
-                "width": "HALF"
+                "width": "FULL"
             },  
             {
                 "key": "primaryButtonText",
@@ -389,31 +485,34 @@
                 "defaultValue": 0,
                 "choices": 
                 [
-                    {
-                        "key": "question1",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer"
-                    },
-                    {
-                        "key": "question2",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer"
-                    },
-                    {
-                        "key": "question3",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer"
-                    },
-                    {
-                        "key": "question4",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer"
-                    },
-                    {
-                        "key": "question5",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer"
-                    }
+                  {
+                    "name": "0",
+                    "value": 0
+                  },
+                  {
+                      "name": "1",
+                      "value": 1
+                  },
+                  {
+                      "name": "2",
+                      "value": 2
+                  },
+                  {
+                      "name": "3",
+                      "value": 3
+                  },
+                  {
+                      "name": "4",
+                      "value": 4
+                  },
+                  {
+                      "name": "5",
+                      "value": 5
+                  },
+                  {
+                      "name": "6",
+                      "value": 6
+                  }
                 ],
                 "width": "FULL"
             }
@@ -446,9 +545,9 @@
                 "key": "description",
                 "title": "Service Description",
                 "subTitle": "",
-                "type": "TEXTINPUT",
+                "type": "TEXTAREA",
                 "placeholder": "Enter your Service Description here",
-                "width": "HALF"
+                "width": "FULL"
             },                    
             {
                 "key": "testimonials",
@@ -458,46 +557,34 @@
                 "defaultValue": 0,
                 "choices": 
                 [
-                    {
-                        "key": "question1",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Service Description here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "question2",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Service Description here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "question3",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Service Description here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "question4",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Service Description here",
-                        "width": "HALF"
-                    },
-                    {
-                        "key": "question5",
-                        "question": "This is faq question",
-                        "answer": "This is faq answer",
-                        "type": "TEXTINPUT",
-                        "placeholder": "Enter your Service Description here",
-                        "width": "HALF"
-                    }
+                  {
+                    "name": "0",
+                    "value": 0
+                  },
+                  {
+                      "name": "1",
+                      "value": 1
+                  },
+                  {
+                      "name": "2",
+                      "value": 2
+                  },
+                  {
+                      "name": "3",
+                      "value": 3
+                  },
+                  {
+                      "name": "4",
+                      "value": 4
+                  },
+                  {
+                      "name": "5",
+                      "value": 5
+                  },
+                  {
+                      "name": "6",
+                      "value": 6
+                  }
                 ],
                 "width": "FULL"
             }
@@ -510,54 +597,54 @@
         "required": true,
         "elements": 
         [ 
-            {
-                "key": "mainHeadline",
-                "title": "Main Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Headline",
-                "width": "HALF"
-            },  
-            {
-                "key": "subHeadline",
-                "title": "Sub Headline",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Sub Headline",
-                "width": "HALF"
-            },   
-            {
-                "key": "description",
-                "title": "Service Description",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Service Description here",
-                "width": "HALF"
-            },   
-            {
-                "key": "contactNumber",
-                "title": "Contact Number",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Contact Number here",
-                "width": "HALF"
-            },   
-            {
-                "key": "emailAddress",
-                "title": "Email Address",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Email Address here",
-                "width": "HALF"
-            },   
-            {
-                "key": "location",
-                "title": "Location Description",
-                "subTitle": "",
-                "type": "TEXTINPUT",
-                "placeholder": "Enter your Location Description here",
-                "width": "HALF"
-            }
+          {
+              "key": "mainHeadline",
+              "title": "Main Headline",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Headline",
+              "width": "HALF"
+          },  
+          {
+              "key": "subHeadline",
+              "title": "Sub Headline",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Sub Headline",
+              "width": "HALF"
+          },    
+          {
+              "key": "contactNumber",
+              "title": "Contact Number",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Contact Number here",
+              "width": "HALF"
+          },   
+          {
+              "key": "emailAddress",
+              "title": "Email Address",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Email Address here",
+              "width": "HALF"
+          },   
+          {
+              "key": "location",
+              "title": "Location Description",
+              "subTitle": "",
+              "type": "TEXTINPUT",
+              "placeholder": "Enter your Location Description here",
+              "width": "HALF"
+          },
+          {
+            "key": "googleMapIframe",
+            "title": "Location Map",
+            "subTitle": "",
+            "type": "TEXTINPUT",
+            "placeholder": "Enter your company google map location",
+            "width": "HALF"
+          }
         ]
     }, 
     {
@@ -590,14 +677,6 @@
                 "type": "TEXTINPUT",
                 "placeholder": "Enter your Sub Headline",
                 "width": "HALF"
-            }, 
-            {
-                "key": "logoImg",
-                "title": "Logo Image",
-                "subTitle": "",
-                "type": "IMAGE_UPLOAD",
-                "placeholder": "",
-                "width": "FULL"
             },
             {
                 "key": "description",
@@ -612,7 +691,29 @@
                 "title": "Footer Navigations",
                 "subTitle": "",
                 "type": "SELECTNUMBER",
-                "defaultValue": 0
+                "defaultValue": 0,
+                "choices": [
+                  {
+                    "name": "0",
+                    "value": 0
+                  },
+                  {
+                    "name": "1",
+                    "value": 1
+                  },
+                  {
+                    "name": "2",
+                    "value": 2
+                  },
+                  {
+                    "name": "3",
+                    "value": 3
+                  },
+                  {
+                    "name": "4",
+                    "value": 4
+                  }
+                ]
             }
         ]
     }, 

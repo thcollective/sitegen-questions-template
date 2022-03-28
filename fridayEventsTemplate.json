@@ -1,66 +1,52 @@
 [
     {
-      "sectionName": "Navigation Theme",
-      "sectionKeyName": "generalTheme",
-      "subHeading": "Memorable identifier for your business",
+      "sectionName": "Navigation Bar",
+      "sectionKeyName": "navbarSection",
+      "subHeading": "Navigater your users to their desired pages",
       "required": true,
       "elements": [
         {
-          "key": "themeColor",
-          "title": "",
+          "key": "companyLogoURL",
+          "title": "Company Logo",
           "subTitle": "",
-          "type": "BRANDING",
+          "type": "IMAGE_UPLOAD",
           "placeholder": "",
           "width": "FULL"
         },
         {
-          "key": "pageStyle",
-          "title": "",
+          "key": "navTitles",
+          "title": "Navigation tabs",
           "subTitle": "",
-          "type": "SELECTINPUT",
-          "defaultValue": "Select a page style",
+          "type": "SELECTNUMBER",
+          "defaultValue": 0,
           "choices": [
             {
-              "name": "block",
-              "value": "block"
+              "name": "0",
+              "value": 0
             },
             {
-              "name": "dark",
-              "value": "dark"
-            }
-          ],
-          "width": "FULL"
-        },
-        {
-          "key": "fontFamily",
-          "title": "",
-          "subTitle": "",
-          "type": "SELECTINPUT",
-          "defaultValue": "Select a font style",
-          "choices": [
-            {
-              "name": "Sans Serif",
-              "value": "font-sans"
+              "name": "1",
+              "value": 1
             },
             {
-              "name": "Serif",
-              "value": "font-serif"
+              "name": "2",
+              "value": 2
             },
             {
-              "name": "Montserrat",
-              "value": "font-montserrat"
+              "name": "3",
+              "value": 3
             },
             {
-              "name": "Inter",
-              "value": "font-inter"
+              "name": "4",
+              "value": 4
             },
             {
-              "name": "Nunito",
-              "value": "font-nunito"
+              "name": "5",
+              "value": 5
             },
             {
-              "name": "Raleway",
-              "value": "font-raleway"
+              "name": "6",
+              "value": 6
             }
           ],
           "width": "FULL"
