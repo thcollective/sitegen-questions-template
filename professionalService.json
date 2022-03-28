@@ -147,7 +147,7 @@
         "sectionName": "About Section",
         "sectionKeyName": "aboutSection",
         "subHeading": "The main information regarding the company.",
-        "required": true,
+        "required": false,
         "elements": 
         [ 
             {
@@ -268,7 +268,7 @@
         "sectionName": "CTA Section",
         "sectionKeyName": "ctaSection",
         "subHeading": "The CTA section of your website.",
-        "required": true,
+        "required": false,
         "elements": [ 
               {
                 "key": "headline",
@@ -379,7 +379,7 @@
         "sectionName": "Pricing Section",
         "sectionKeyName": "pricingSection",
         "subHeading": "Add your pricing Plans.",
-        "required": true,
+        "required": false,
         "elements": 
         [ 
             {
@@ -442,7 +442,7 @@
         "sectionName": "FAQ Section",
         "sectionKeyName": "faqSection",
         "subHeading": "Choose your FAQs to display.",
-        "required": true,
+        "required": false,
         "elements": 
         [ 
             {
@@ -522,7 +522,7 @@
         "sectionName": "Testimonial Section",
         "sectionKeyName": "testimonialSection",
         "subHeading": "Choose your Testimonials to display.",
-        "required": true,
+        "required": false,
         "elements": 
         [ 
             {
