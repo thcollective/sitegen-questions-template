@@ -221,7 +221,7 @@
                 "subTitle": "",
                 "type": "TEXTAREA",
                 "placeholder": "Enter your Service Description here",
-                "width": "HALF"
+                "width": "FULL"
             },                     
             {
                 "key": "services",
@@ -333,7 +333,7 @@
             "subTitle": "",
             "type": "TEXTAREA",
             "placeholder": "Enter your Service Description here",
-            "width": "HALF"
+            "width": "FULL"
           },                     
           {
             "key": "teamMembers",
